@@ -1,3 +1,5 @@
 // @codekit-prepend "jquery.js"
 // @codekit-prepend "fittext.js"
+// @codekit-prepend "parallax.js"
 // @codekit-append "code.js"
+// @codekit-append "macbook.js"
