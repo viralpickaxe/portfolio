@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Titillium Web'), local('TitilliumWeb-Regular'), url(../fonts/font.woff) format('woff');
+}
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 100%;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 3em;
+  padding-left: 3%;
+}
+
+.macbook-container {
+  position: relative;
+  width: 80%;
+  margin: 10%;
+  img {
+    position: relative;
+    width: 100%;
+    top: 0;
+  }
+  .content {
+    background-color: white;
+    position: absolute;
+    top: 9%;
+    left: 12%;
+    z-index: 2;
+    width: 75.8%;
+    height: 75%;
+  }
+}
