@@ -10,7 +10,7 @@ $(document).ready(function () {
     }
   });
 
-  parallax.add($("#index")).add($("#aboutslide")).add($("#skillsslide"));
+  parallax.add($("#index")).add($("#aboutslide")).add($("#skillsslide")).add($("#projectsslide")).add($("#talktomeslide"));
 
   parallax.background = $(".container");
 
@@ -30,6 +30,16 @@ $(document).ready(function () {
 
   parallax.skillsslide.onload=function(){
     setTop("aboutslide", "About me");
+    setBottom("projectsslide", "Projects");
+  };
+
+  parallax.projectsslide.onload=function(){
+    setTop("skillsslide", "My Skills");
+    setBottom("talktomeslide", "Talk To Me");
+  };
+
+  parallax.talktomeslide.onload=function(){
+    setTop("projectsslide", "Projects");
     noBottom();
   };
 

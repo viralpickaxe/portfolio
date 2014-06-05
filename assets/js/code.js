@@ -1,6 +1,9 @@
 function macbookMargin(){
   var margintop;
-  margintop = ($(window).height()-$('.macbook-container').height())/2;
+  margintop = (($(window).height()-$('.macbook-container').height())/2)-20;
+  if(margintop<10){
+    margintop = 10;
+  }
   $('.macbook-container').css('margin-top',margintop);
 }
 

@@ -26,7 +26,8 @@ a {
 .macbook-container {
   position: relative;
   width: 90%;
-  margin: 5%;
+  max-width: 800px;
+  margin: 0 auto;
   color: #3F3F41; }
   .macbook-container img {
     position: relative;
@@ -51,19 +52,19 @@ a {
       margin: 0;
       padding: 0; }
 
-.slide, .slide-1, .slide-2, .slide-3 {
+.slide, .slide-1, .slide-2, .slide-3, .slide-4, .slide-5 {
   cursor: default;
   overflow: scroll; }
-  .slide h2, .slide-1 h2, .slide-2 h2, .slide-3 h2 {
+  .slide h2, .slide-1 h2, .slide-2 h2, .slide-3 h2, .slide-4 h2, .slide-5 h2 {
     font-size: 2em; }
-  .slide p, .slide-1 p, .slide-2 p, .slide-3 p {
+  .slide p, .slide-1 p, .slide-2 p, .slide-3 p, .slide-4 p, .slide-5 p {
     font-size: 1em;
     margin: 0 10%; }
-  .slide .textleft, .slide-1 .textleft, .slide-2 .textleft, .slide-3 .textleft {
+  .slide .textleft, .slide-1 .textleft, .slide-2 .textleft, .slide-3 .textleft, .slide-4 .textleft, .slide-5 .textleft {
     text-align: left; }
-  .slide .textcenter, .slide-1 .textcenter, .slide-2 .textcenter, .slide-3 .textcenter {
+  .slide .textcenter, .slide-1 .textcenter, .slide-2 .textcenter, .slide-3 .textcenter, .slide-4 .textcenter, .slide-5 .textcenter {
     text-align: center; }
-  .slide .textright, .slide-1 .textright, .slide-2 .textright, .slide-3 .textright {
+  .slide .textright, .slide-1 .textright, .slide-2 .textright, .slide-3 .textright, .slide-4 .textright, .slide-5 .textright {
     text-align: right; }
 
 .slide-1 {
@@ -74,6 +75,44 @@ a {
     margin-top: 8%; }
   .slide-1 h1 {
     margin-top: 40%; }
+
+.slide-5 form {
+  float: left;
+  width: 100%; }
+.slide-5 .form-group {
+  width: 100%;
+  margin: 0 0 20px; }
+.slide-5 .form-group.textarea {
+  border: 0; }
+.slide-5 .form-group input, .slide-5 .form-group textarea {
+  float: right;
+  width: 87%;
+  margin-right: 3%;
+  margin-bottom: 10px; }
+.slide-5 input, .slide-5 textarea, .slide-5 input.form-control, .slide-5 textarea.form-control, .slide-5 input.form-control:focus, .slide-5 textarea.form-control:focus {
+  color: #444;
+  font-size: 23px;
+  height: 70px;
+  outline: none;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 0;
+  border-left: 4px solid #ddd;
+  background-color: #eee;
+  padding: 0 20px; }
+.slide-5 textarea.form-control, .slide-5 textarea.form-control:focus {
+  height: 200px;
+  resize: none;
+  padding-top: 18px; }
+.slide-5 .form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: #777; }
+.slide-5 .form-group input.form-control:focus, .slide-5 .form-group textarea.form-control:focus {
+  border-color: #f4d432; }
+.slide-5 .form-group input.form-control:valid, .slide-5 .form-group textarea.form-control:valid {
+  border-color: #2EB82E; }
 
 .menubar {
   position: fixed;
