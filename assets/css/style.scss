@@ -32,6 +32,11 @@ a {
   }
 }
 
+strong {
+  font-weight: 900;
+  font-style: bold;
+}
+
 .macbook-container {
   position: relative;
   width: 90%;
@@ -75,6 +80,7 @@ a {
   p {
     font-size: 1em;
     margin: 0 10%;
+    margin-bottom: 15px;
   }
   .textleft {
     text-align: left;
@@ -106,6 +112,9 @@ a {
 
 .slide-3 {
   @extend .slide;
+  p {
+    margin-bottom: 0;
+  }
 }
 
 .slide-4 {
