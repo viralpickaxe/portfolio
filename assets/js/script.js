@@ -1,5 +1,7 @@
-// @codekit-prepend "jquery.js"
-// @codekit-prepend "fittext.js"
-// @codekit-prepend "parallax.js"
-// @codekit-append "code.js"
-// @codekit-append "macbook.js"
+// @codekit-append "utilities/jquery.js"
+// @codekit-append "utilities/fittext.js"
+// @codekit-append "utilities/flowtype.js"
+// @codekit-append "utilities/typer.js"
+
+// @codekit-append "elements/base.js"
+// @codekit-append "elements/buttons.js"
