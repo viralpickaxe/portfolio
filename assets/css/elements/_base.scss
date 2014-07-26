@@ -3,7 +3,7 @@ body {
   font-size: 15px;
   background-color: $grey;
   margin: 0;
-  font-weight: 300;
+  font-weight: 100;
 }
 
 header {
@@ -41,26 +41,29 @@ main {
   width: 88%;
   margin: 0 auto;
   padding: 0;
-  padding-top: 10px;
+  padding-top: 1em;
   font-size: 0.5em;
   > section {
     float: left;
-    //margin-bottom: 10px;
+    width: 100%;
+    margin-bottom: 1em;
+  }
+  p {
+    font-size: 1.3em;
   }
 }
 
 .quickabout {
-  margin-bottom: 30px;
   p {
     font-size: 1.5em;
   }
 }
 
 .skills {
+  margin-bottom: 0;
   p {
-    font-size: 1.2em;
-    margin-bottom: 5px;
-    margin-top: 10px;
+    margin-bottom: 0.5em;
+    margin-top: 0.8em;
   }
   ul {
     list-style-type: none;
@@ -79,11 +82,35 @@ main {
     li {
       float: left;
       font-size: 1.2em;
-      padding: 5px 10px;
+      padding: 0.3em 0.8em;
       color: $white;
-      margin-right: 5px;
-      margin-bottom: 5px;
+      margin-right: 0.5em;
+      margin-bottom: 0.5em;
       border-radius: 3px;
+    }
+  }
+}
+
+.projects {
+  margin-top: 2em;
+  .date {
+    width: 100%;
+    border-bottom: 1px solid $grey_dark;
+  }
+  .project {
+    @extend .grid;
+    margin: 0.5em 0;
+    .content {
+      @extend .col-3-5;
+      h2 {
+        margin: 0;
+        padding: 0;
+        font-weight: 100;
+      }
+    }
+    img {
+      @extend .col-2-5;
+      border-radius: 5px;
     }
   }
 }

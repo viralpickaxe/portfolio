@@ -8,6 +8,7 @@ header {
       content: " <";
     }
     &:hover {
+      border-bottom: 1px dotted $white;
       &:after{
         font-weight: 600;
       }
