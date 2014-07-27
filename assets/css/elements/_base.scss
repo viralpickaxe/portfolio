@@ -101,6 +101,7 @@ main {
   .project {
     @extend .grid;
     margin: 0.5em 0;
+    margin-bottom: 2em;
     .content {
       @extend .col-3-5;
       @media (max-width: 500px){width:100%;}
@@ -108,9 +109,19 @@ main {
         margin: 0;
         padding: 0;
         font-weight: 100;
+        font-size: 2em;
+      }
+      h4 {
+        margin: 0;
+        margin-bottom: 25px;
+        padding: 0;
+        font-weight: 100;
+        font-size: 1em;
+        padding-right: 1.5em;
+        @media (max-width: 500px){padding-right:0;}
       }
       p {
-        font-size: 0.85em;
+        font-size: 0.8em;
         padding-right: 1.5em;
         @media (max-width: 500px){padding-right:0;}
       }
