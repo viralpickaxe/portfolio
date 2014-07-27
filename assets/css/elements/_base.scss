@@ -39,6 +39,7 @@ header {
 }
 
 main {
+  @extend .cf;
   width: 88%;
   margin: 0 auto;
   padding: 0;
@@ -51,6 +52,22 @@ main {
   }
   p {
     font-size: 1.3em;
+  }
+}
+
+footer {
+  @extend .cf;
+  float: left;
+  background-color: $black;
+  height: 1em;
+  width: 100%;
+  margin: 0;
+  color: $white;
+  .container {
+    width: 88%;
+    margin: 0 auto;
+    font-size: 0.4em;
+    padding-top: 0.6em;
   }
 }
 
