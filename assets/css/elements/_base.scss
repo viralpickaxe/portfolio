@@ -125,7 +125,7 @@ main {
         padding-right: 1.5em;
         @media (max-width: 500px){padding-right:0;}
       }
-      .tags {
+      .links {
         ul {
           list-style-type: none;
           padding: 0;
@@ -133,12 +133,24 @@ main {
           li {
             background-color: $blue;
             float: left;
-            font-size: 0.7em;
+            font-size: 1em;
             padding: 0.3em 0.8em;
             color: $white;
             margin-right: 0.5em;
             margin-bottom: 0.5em;
             border-radius: 3px;
+            a {
+              color: $white;
+              border-bottom: 0;
+              cursor: pointer;
+              text-decoration: none;
+              &:hover {
+                color: $white;
+              }
+            }
+            &:hover {
+              background-color: $blue_active;
+            }
           }
         }
       }
