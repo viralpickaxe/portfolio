@@ -31,6 +31,7 @@ header {
   .links {
     float: right;
     text-align: right;
+    @media (max-width: 250px){display: none;}
     li {
       font-size: 0.3em;
     }
