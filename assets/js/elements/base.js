@@ -1,5 +1,5 @@
 $(document.body).flowtype({
-  minFont   : 15,
+  minFont   : 25,
   maxFont   : 50,
 });
 
