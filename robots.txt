@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: http://iamjamiedavies.com/sitemap.xml
