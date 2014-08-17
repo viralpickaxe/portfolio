@@ -127,8 +127,8 @@
   </section>
 
   <section class="contact">
-    <p>Say hi to me</p>
-    <div><span>07718061934</span> Call me</div>
-    <div><span>hello@iamjamiedavies.com</span> Email me</div>
+    <p>Say hello to me</p>
+    <div>Call me<br><span>07718061934</span></div>
+    <div>Email me<br><span>hello@iamjamiedavies.com</span></div>
   </section>
 </main>
