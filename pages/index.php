@@ -126,6 +126,21 @@
       </div>
   </section>
 
+  <section class="posts">
+    <p>These are some things i've writtern</p>
+    <div class="date">2014</div>
+    <div class="post-group">
+      <div class="post">
+        <h2><a href="https://medium.com/words-by-causehub-io/making-data-useful-2851ac7a9335" target=_blank>Making Data Useful</a></h2>
+        <p>My experience with public (gov) data, and how it could be improved</p>
+      </div>
+      <div class="post">
+        <h2><a href="https://medium.com/words-by-causehub-io/schools-getting-in-the-way-of-my-work-5749cf53f110" target=_blank>Schools Getting in the Way of My Work</a></h2>
+        <p>As some of you might know, starting up a social enterprise is pretty hard, but starting one while trying to complete GCSEs is even harder...</p>
+      </div>
+    </div>
+  </section>
+
   <section class="contact">
     <p>Say hello to me</p>
     <div>Call me<br><span>07718061934</span></div>
