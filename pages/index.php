@@ -47,7 +47,7 @@
             <h2>pollr<span class="type blue">Weekend Hack 14w33</span></h2>
             <h4>pollr. ask awesomly.</h4>
             <p>pollr was a little idea that I threw together on the weekend because I wanted to learn/use node.js, socket.io and mongoDB.</p>
-            <p>pollr is a very simple website, when you land on the website you are prompted to enter a question that you want to ask people. Once you do this, you are redirected to another page with your question and two buttons, yes and no. You can then share that link and when people vote either yes or no to your question, you will see the buttons flash and the counters increase.</p>
+            <p>pollr is a very simple website. As soon as you land on the website you are prompted to enter a question that you want to ask people. Once you do this, you are redirected to another page with your question and two buttons, yes and no. You can then share that link and when people vote either yes or no to your question, you will see the buttons flash and the counters increase.</p>
             <p class="whatidid">This is a hack, it is in no way a finished product.</p>
             <div class="links">
               <ul>
