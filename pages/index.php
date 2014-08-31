@@ -143,7 +143,6 @@
 
   <section class="contact">
     <p>Say hello to me</p>
-    <div>Call me<br><span>07718061934</span></div>
     <div>Email me<br><span>hello@iamjamiedavies.com</span></div>
   </section>
 </main>
