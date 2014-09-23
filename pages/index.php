@@ -44,6 +44,22 @@
       <div class="project-group">
         <div class="project">
           <div class="content">
+            <h2>screenie server<span class="type blue">Live Hack</span></h2>
+            <h4>A node.js based self hosted web screenshot server</h4>
+            <p>So while working on <a href="http://whatleads.to" target=_blank>whatleads.to</a> we ran into an issue. The problem was that we wanted to be able to show screenshots (images) of the aims that people were creating, so that we could put them on things like twitter cards.</p>
+            <p>From looking around for a while all I could find, were some pretty bad APIs that were free, and some pretty awesome APIs that were very (very) expensive. So... I decided that I would build one.</p>
+            <p>If you like it, or want to use it feel free to grab the code and deploy it on your servers :)</p>
+            <p class="whatidid">This was built in 30 minutes during a GCSE Computer Science Lesson.</p>
+            <div class="links">
+              <ul>
+                <li><a href="http://github.com/viralpickaxe/screenie-server" target=_blank>GitHub</a></li>
+              </ul>
+            </div>
+          </div>
+          <img src="/assets/img/screenieserver.png" />
+        </div>
+        <div class="project">
+          <div class="content">
             <h2>pollr<span class="type blue">Weekend Hack 14w33</span></h2>
             <h4>pollr. ask awesomly.</h4>
             <p>pollr was a little idea that I threw together on the weekend because I wanted to learn/use node.js, socket.io and mongoDB.</p>
@@ -97,7 +113,7 @@
             <h2>Pixel A Piece<span class="type green">Personal Project</span></h2>
             <h4>A pixel art creation/sharing site.</h4>
             <p>I haven't writtern this project description yet :(</p>
-            <p class="whatidid">This was the second major build that I did, I built both the frontend and the backend, but I had some help to build the Flash pixel editor.</p>
+            <p class="whatidid">This was the second major build that I did, I built the backend and some of the frontend for this site. The design and flash pixel editor was done by <a href="http://www.direzdev.nn.pe/Portfolio/" target=_blank>Jacob Jergensen</a></p>
             <div class="links">
               <ul>
                 <li><a href="http://pixelapiece.com" target=_blank>Website</a></li>
@@ -114,7 +130,7 @@
             <h2>MineZone<span class="type green">Personal Project</span></h2>
             <h4>The first website that I built. It was a social network for the game MineCraft.</h4>
             <p>I haven't writtern this project description yet :(</p>
-            <p class="whatidid">I built this site completely by myself, at the time of this project I only knew PHP, HTML and CSS so it was quite slow and clunky.</p>
+            <p class="whatidid">I built both the backend and frontend of this site, later on <a href="http://www.direzdev.nn.pe/Portfolio/" target=_blank>Jacob Jergensen</a> came on board and helped with the design. At the time of this project I only knew PHP, HTML and CSS so it was quite slow and clunky.</p>
             <div class="links">
               <ul>
                 
