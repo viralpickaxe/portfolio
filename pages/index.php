@@ -48,7 +48,7 @@
             <h4>Daym, those some fine looking notifications.</h4>
             <p>notifine, is a lightweight but powerful jQuery notification system. Jazz up your site with these good looking, responsive, growl like notifications.</p>
             <p>I built this libary/plugin mainly because I wanted a powerful notification system that I could easily implement into hack projects. The main reason that I built something new, rather than use something that already exists is because I wanted more control over the notifications, things like event callbacks.
-            <p class="whatidid">I built this pretty quickly while on the train. And then just threw this documetation page together on the weekend.</p>
+            <p class="whatidid">I built most of this pretty quickly while on the train. And then just threw this documetation page together on the weekend.</p>
             <div class="links">
               <ul>
                 <li><a href="http://notifine.iamjamiedavies.com" target=_blank>Website</a></li>
