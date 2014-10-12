@@ -36,7 +36,7 @@
       <ul class="links">
         <li><a href="http://github.com/viralpickaxe" target=_blank data-jobtitleprefix="an" data-jobtitle="Open Source Developer">GitHub</a></li>
         <li><a href="http://twitter.com/viralpickaxe" target=_blank data-jobtitleprefix="an" data-jobtitle="Avid Tweeter">Twitter</a></li>
-        <li><a href="http://twitter.com/viralpickaxe" target=_blank data-jobtitleprefix="a" data-jobtitle="Bid'nis Guy">LinkedIn</a></li>
+        <li><a href="http://www.linkedin.com/in/viralpickaxe" target=_blank data-jobtitleprefix="a" data-jobtitle="Bid'nis Guy">LinkedIn</a></li>
       </ul>
     </header>
 
