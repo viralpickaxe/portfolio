@@ -159,6 +159,7 @@
 
   <section class="contact">
     <p>Say hello to me</p>
-    <div>Email me<br><span>hello@iamjamiedavies.com</span></div>
+    <div>Tweet me<br><a href="http://twitter.com/viralpickaxe" target=_blank>@viralpickaxe</a></div>
+    <div>Email me<br><a href="mailto:hello@iamjamiedavies.com">hello@iamjamiedavies.com</a></span></div>
   </section>
 </main>

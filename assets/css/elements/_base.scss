@@ -234,7 +234,10 @@ footer {
   p {
     font-size: 1.5em;
   }
-  span {
+  div {
+    padding-bottom: 10px;
+  }
+  a {
     font-size: 2.5em;
     @media (max-width: 500px){font-size: 1.9em;}
     @media (max-width: 300px){font-size: 1.2em;}
