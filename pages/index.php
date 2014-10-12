@@ -44,6 +44,22 @@
       <div class="project-group">
         <div class="project">
           <div class="content">
+            <h2>notifine<span class="type purple">Libary</span></h2>
+            <h4>Daym, those some fine looking notifications.</h4>
+            <p>notifine, is a lightweight but powerful jQuery notification system. Jazz up your site with these good looking, responsive, growl like notifications.</p>
+            <p>I built this libary/plugin mainly because I wanted a powerful notification system that I could easily implement into hack projects. The main reason that I built something new, rather than use something that already exists is because I wanted more control over the notifications, things like event callbacks.
+            <p class="whatidid">I built this pretty quickly while on the train. And then just threw this documetation page together on the weekend.</p>
+            <div class="links">
+              <ul>
+                <li><a href="http://notifine.iamjamiedavies.com" target=_blank>Website</a></li>
+                <li><a href="http://github.com/viralpickaxe/notifine" target=_blank>GitHub</a></li>
+              </ul>
+            </div>
+          </div>
+          <img src="/assets/img/notifine.png" />
+        </div>
+        <div class="project">
+          <div class="content">
             <h2>screenie server<span class="type blue">Live Hack</span></h2>
             <h4>A node.js based self hosted web screenshot server</h4>
             <p>So while working on <a href="http://whatleads.to" target=_blank>whatleads.to</a> we ran into an issue. The problem was that we wanted to be able to show screenshots (images) of the aims that people were creating, so that we could put them on things like twitter cards.</p>

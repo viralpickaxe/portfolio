@@ -146,6 +146,10 @@ footer {
             background-color: black;
             color: $white;
           }
+          &.purple {
+            background-color: $purple;
+            color: $white;
+          }
         }
       }
       h4 {
