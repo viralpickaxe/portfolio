@@ -44,6 +44,24 @@
       <div class="project-group">
         <div class="project">
           <div class="content">
+            <h2>Crowdless<span class="type blue">Hackathon Project</span></h2>
+            <h4>Crowdless let's it's users visit their favourite attractions in London when they are less busy.</h4>
+            <p>We scrape public, geo-tagged information from social sources such as Twitter, Instagram and Facebook to generate a base understanding of busy hours at popular attractions (listed from Foursquare).</p>
+            <p>We then use a neural network to continually update our models, keeping them daily, weekly and seasonally updated with estimates of busy times.</p>
+            <p>When the user opens the Crowdless app, they can choose the destinations they want to see. We then develop an itinerary for them that takes them through London (with convenient Routing from esri), which avoids the predicted crowds as much as possible.</p>
+            <p>Say bye bye to your beloved queues with Crowdless! <a href="http://challengepost.com/software/crowdless-cxa52" target=_blank>Winner of "Best Use of Esri's tools", at TechCrunch Disrupt EU 2014</a></p>
+            <p class="whatidid">Crowsless was a hackathon project at, TechCrunch Disrupt EU 2014. I worked on it with <a href="http://twitter.com/byteofbits" target=_blank>Alexander Christie</a> and <a href="http://twitter.com/krishan711" target=_blank>Krishan Patel</a></p>
+            <div class="links">
+              <ul>
+                <li><a href="http://challengepost.com/software/crowdless-cxa52" target=_blank>Challengepost</a></li>
+                <li><a href="http://github.com/Crowdless" target=_blank>GitHub</a></li>
+              </ul>
+            </div>
+          </div>
+          <img src="/assets/img/crowdless.png" class="noshadow"/>
+        </div>
+        <div class="project">
+          <div class="content">
             <h2>notifine<span class="type purple">Libary</span></h2>
             <h4>Daym, those some fine looking notifications.</h4>
             <p>notifine, is a lightweight but powerful jQuery notification system. Jazz up your site with these good looking, responsive, growl like notifications.</p>
