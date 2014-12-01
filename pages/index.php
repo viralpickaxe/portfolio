@@ -6,17 +6,22 @@
   <section class="skills">
     <p>I know how to do these things</p>
     <ul class="current">
+      <li>Node.js</li>
       <li>PHP</li>
-      <li>SQL/MySQL</li>
+      <li>SQL</li>
+      <li>NoSQL</li>
       <li>Javascript</li>
-      <li>APIs</li>
-      <li>Ajax</li>
       <li>HTML</li>
-      <li>CSS</li>
+      <li>CSS/Scss/Less</li>
+      <li>APIs</li>
+      <li>Web Sockets</li>
+      <li>REST/RESTful</li>
+      <li>Ajax</li>
+      <li>OOP</li>
       <li>Visual Basic</li>
       <li>Python</li>
-      <li>OOP</li>
-      <li>REST/RESTful</li>
+      <li>Git</li>
+      <li>Grunt/Gulp</li>
       <li>Sysadmin</li>
     </ul>
   </section>
@@ -24,16 +29,13 @@
   <section class="skills">
     <p>Im learning these things</p>
     <ul class="learning">
-      <li>Node.js</li>
-      <li>socket.io</li>
-      <li>NOSQL/mongoDB</li>
+      <li>Java</li>
     </ul>
   </section>
 
   <section class="skills">
     <p>I want to learn these things</p>
     <ul class="learning">
-      <li>Java</li>
       <li>Swift</li>
     </ul>
   </section>
