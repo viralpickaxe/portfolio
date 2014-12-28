@@ -30,6 +30,7 @@
     <p>Im learning these things</p>
     <ul class="learning">
       <li>Java</li>
+      <li>Arduino</li>
     </ul>
   </section>
 
