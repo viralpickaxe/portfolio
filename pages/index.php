@@ -10,7 +10,7 @@
       <li>PHP</li>
       <li>SQL</li>
       <li>NoSQL</li>
-      <li>Javascript</li>
+      <li>JavaScript</li>
       <li>HTML</li>
       <li>CSS/Scss/Less</li>
       <li>APIs</li>
@@ -30,14 +30,14 @@
     <p>Im learning these things</p>
     <ul class="learning">
       <li>Java</li>
-      <li>Arduino</li>
     </ul>
   </section>
 
   <section class="skills">
     <p>I want to learn these things</p>
     <ul class="learning">
-      <li>C</li>
+      <li>C and/or C++</li>
+      <li>CoffeeScript</li>
       <li>Swift</li>
       <li>Ardiuno</li>
     </ul>
