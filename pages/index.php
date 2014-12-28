@@ -36,7 +36,9 @@
   <section class="skills">
     <p>I want to learn these things</p>
     <ul class="learning">
+      <li>C</li>
       <li>Swift</li>
+      <li>Ardiuno</li>
     </ul>
   </section>
 
