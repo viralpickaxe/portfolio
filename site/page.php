@@ -49,5 +49,6 @@
     </footer>
 
   </body>
-  <script async src="assets/js/script.min.js"></script>
+  <script src="assets/js/script.min.js"></script>
+  <script src="assets/js/pages/<?php echo $_page['jsfile']; ?>.min.js"></script>
 </html>
