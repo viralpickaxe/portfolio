@@ -44,7 +44,7 @@
 
     <footer>
       <div class="container">
-        © 2014 Jamie Davies.
+        © <?php echo date("Y"); ?> Jamie Davies.
       </div>
     </footer>
 
