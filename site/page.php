@@ -10,6 +10,9 @@
 
     <meta name="keywords" content="<?php echo $_page['keywords']; ?>">
     <meta name="description" content="<?php echo $_page['description']; ?>" />
+
+    <meta name="theme-color" content="#0099FF">
+    <link rel="icon" sizes="192x192" href="/assets/img/profilepics/favicon192.png">
     <link rel="shortcut icon" href="/favicon.ico?new=new"> 
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
