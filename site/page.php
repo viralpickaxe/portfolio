@@ -46,7 +46,7 @@
       </ul>
     </header>
 
-    <?php include(DOCUMENT_ROOT.'/pages/'.$_page['pagefile']); ?>
+    <?php include(DOCUMENT_ROOT.'/pages/'.$_page['file'].'.php'); ?>
 
     <footer>
       <div class="container">
@@ -56,5 +56,5 @@
 
   </body>
   <script src="assets/js/script.min.js"></script>
-  <script src="assets/js/pages/<?php echo $_page['jsfile']; ?>.min.js"></script>
+  <script src="assets/js/pages/<?php echo $_page['file']; ?>.min.js"></script>
 </html>
