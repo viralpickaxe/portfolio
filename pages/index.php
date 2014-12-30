@@ -94,7 +94,7 @@
               </ul>
             </div>
           </div>
-          <img src="/assets/img/crowdless.png" class="noshadow"/>
+          <img src="/assets/img/websites/crowdless.png" class="noshadow"/>
         </div>
         <div class="project">
           <div class="content">
@@ -110,7 +110,7 @@
               </ul>
             </div>
           </div>
-          <img src="/assets/img/notifine.png" />
+          <img src="/assets/img/websites/notifine.png" />
         </div>
         <div class="project">
           <div class="content">
@@ -126,7 +126,7 @@
               </ul>
             </div>
           </div>
-          <img src="/assets/img/screenieserver.png" />
+          <img src="/assets/img/websites/screenieserver.png" />
         </div>
         <div class="project">
           <div class="content">
@@ -142,7 +142,7 @@
               </ul>
             </div>
           </div>
-          <img src="/assets/img/pollr.png" />
+          <img src="/assets/img/websites/pollr.png" />
         </div>
         <div class="project">
           <div class="content">
@@ -157,7 +157,7 @@
               </ul>
             </div>
           </div>
-          <img src="/assets/img/whatleadsto.png" />
+          <img src="/assets/img/websites/whatleadsto.png" />
         </div>
         <div class="project">
           <div class="content">
@@ -173,7 +173,7 @@
               </ul>
             </div>
           </div>
-          <img src="/assets/img/relationstracker.png" />
+          <img src="/assets/img/websites/relationstracker.png" />
         </div>
       </div>
     <div class="date">2012</div>
@@ -190,7 +190,7 @@
               </ul>
             </div>
           </div>
-          <img src="/assets/img/pixelapiece.png" />
+          <img src="/assets/img/websites/pixelapiece.png" />
         </div>
       </div>
     <div class="date">2011</div>
@@ -207,7 +207,7 @@
               </ul>
             </div>
           </div>
-          <img src="/assets/img/minezone.png" />
+          <img src="/assets/img/websites/minezone.png" />
         </div>
       </div>
   </section>

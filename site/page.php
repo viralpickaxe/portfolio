@@ -7,8 +7,11 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title><?php echo $_page['title']; ?></title>
+
     <meta name="keywords" content="<?php echo $_page['keywords']; ?>">
     <meta name="description" content="<?php echo $_page['description']; ?>" />
+    <link rel="shortcut icon" href="/favicon.ico?new=new"> 
+
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <script>
