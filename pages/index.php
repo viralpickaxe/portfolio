@@ -3,12 +3,11 @@
     <p>
       I started programming when I was 8. 
       I'm now 16 and i've co-founded a startup called <a href="http://whatleads.to" target=_blank>whatleads.to</a>.
-      When i'm not not working on whatleads.to or attending hackathons, I scuba dive.
     </p>
   </section>
 
   <section class="skills-title">
-    <h3>Skills</h3>
+    <h3>These are my skills</h3>
     <ul class="key">
       <li class="know" data-type="know">I know</li>
       <li class="learning" data-type="learning">I'm learning</li>
@@ -68,6 +67,7 @@
     <p>Others</p>
     <ul>
       <li class="know">APIs</li>
+      <li class="know">Payment Processing</li>
       <li class="know">REST/RESTful</li>
       <li class="know">Web Sockets</li>
       <li class="know">Sysadmin</li>
