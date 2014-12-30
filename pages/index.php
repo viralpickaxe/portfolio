@@ -1,6 +1,10 @@
 <main>
   <section class="quickabout">
-    <p>I started programming when I was 8. I'm now 16 and i've co-founded a startup called <a href="http://whatleads.to" target=_blank>whatleads.to</a>.</p>
+    <p>
+      I started programming when I was 8. 
+      I'm now 16 and i've co-founded a startup called <a href="http://whatleads.to" target=_blank>whatleads.to</a>.
+      When i'm not not working on whatleads.to or attending hackathons, I scuba dive.
+    </p>
   </section>
 
   <section class="skills">
