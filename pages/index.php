@@ -7,48 +7,75 @@
     </p>
   </section>
 
-  <section class="skills">
-    <p>I know how to do these things</p>
-    <ul class="current">
-      <li>Node.js</li>
-      <li>PHP</li>
-      <li>SQL</li>
-      <li>NoSQL</li>
-      <li>JavaScript</li>
-      <li>HTML</li>
-      <li>CSS/Scss/Less</li>
-      <li>APIs</li>
-      <li>Web Sockets</li>
-      <li>REST/RESTful</li>
-      <li>Ajax</li>
-      <li>OOP</li>
-      <li>Visual Basic</li>
-      <li>Python</li>
-      <li>Git</li>
-      <li>Grunt/Gulp</li>
-      <li>Sysadmin</li>
+  <section class="skills-title">
+    <h3>Skills</h3>
+    <ul class="key">
+      <li class="know" data-type="know">I know</li>
+      <li class="learning" data-type="learning">I'm learning</li>
+      <li class="tolearn" data-type="tolearn">I want to learn</li>
     </ul>
   </section>
 
   <section class="skills">
-    <p>Im learning these things</p>
-    <ul class="learning">
-      <li>Java</li>
+    <p>Languages</p>
+    <ul>
+      <li class="know">PHP</li>
+      <li class="know">JavaScript</li>
+      <li class="know">HTML</li>
+      <li class="know">CSS / SCSS / Less</li>
+      <li class="know">Python</li>
+      <li class="know">Visual Basic</li>
+      <li class="learning">Java</li>
+      <li class="tolearn">C / C++</li>
+      <li class="tolearn">CoffeeScript</li>
+      <li class="tolearn">Swift</li>
     </ul>
   </section>
 
   <section class="skills">
-    <p>I want to learn these things</p>
-    <ul class="learning">
-      <li>C and/or C++</li>
-      <li>CoffeeScript</li>
-      <li>Swift</li>
-      <li>Ardiuno</li>
+    <p>Frameworks / Libraries</p>
+    <ul>
+      <li class="know">Node.js</li>
+      <li class="know">jQuery</li>
+      <li class="know">Express</li>
+      <li class="know">Restify</li>
+      <li class="know">React</li>
+      <li class="know">Sails.js</li>
+      <li class="learning">Laravel</li>
+      <li class="tolearn">AngularJS</li>
+      <li class="tolearn">Backbone.js</li>
+    </ul>
+  </section>
+
+  <section class="skills">
+    <p>Databases</p>
+    <ul>
+      <li class="know">MySQL</li>
+      <li class="know">MongoDB</li>
+      <li class="know">PostgreSQL</li>
+    </ul>
+  </section>
+
+  <section class="skills">
+    <p>Tools</p>
+    <ul>
+      <li class="know">Git</li>
+      <li class="know">Gulp / Grunt</li>
+    </ul>
+  </section>
+
+  <section class="skills">
+    <p>Others</p>
+    <ul>
+      <li class="know">APIs</li>
+      <li class="know">REST/RESTful</li>
+      <li class="know">Web Sockets</li>
+      <li class="know">Sysadmin</li>
     </ul>
   </section>
 
   <section class="projects">
-    <p>These are some things i've worked on</p>
+    <h3>These are some things i've worked on</h3>
     <div class="date">2014</div>
       <div class="project-group">
         <div class="project">

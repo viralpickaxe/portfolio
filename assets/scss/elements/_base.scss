@@ -71,40 +71,78 @@ footer {
   }
 }
 
+section {
+  h3 {
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+  }
+}
+
 .quickabout {
   p {
     font-size: 1.5em;
   }
 }
 
-.skills {
+.skills,.skills-title {
   margin-bottom: 0;
   p {
+    font-size: 1.2em;
     margin-bottom: 0.5em;
-    margin-top: 0.8em;
+    margin-top: 0.2em;
   }
   ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    &.current {
-      li {
-        background-color: $blue;
-      }
-    }
-    &.learning {
-      li {
-        background-color: $blue_active;
-      }
-    }
     li {
       float: left;
-      font-size: 1.2em;
+      font-size: 1.1em;
       padding: 0.3em 0.8em;
       color: $white;
       margin-right: 0.5em;
       margin-bottom: 0.5em;
       border-radius: 3px;
+      background-color: $blue;
+      transition: opacity .1s linear;
+      &.learning {
+        background-color: lighten($blue,10%);
+        opacity: 0.6;
+      }
+      &.tolearn {
+        background-color: lighten($blue,20%);
+        opacity: 0.5;
+      }
+      &.highlight {
+        opacity: 1;
+      }
+      &.shade {
+        opacity: 0.1;
+      }
+    }
+  }
+  &.skills-title {
+    h3,ul {
+      float: left;
+      display: inline;
+    }
+    ul {
+      margin-top: 1em;
+      margin-left: 1em;
+      li {
+        font-size: 0.8em;
+        cursor: pointer;
+      }
+    }
+    @media (max-width: 285px){
+      h3,ul{
+        display: block; float: none;
+      }
+      ul{
+        margin: 0; margin-bottom: 1em;
+      }
     }
   }
 }

@@ -2,8 +2,11 @@ $(document).ready(function(){
 
 });
 
-$('.profilephoto').on('mouseenter',function(){
-  $(this).attr('src',$(this).data('second'));
+$('.key li').on('mouseenter',function(){
+  var type = $(this).data('type');
+  $('.skills ul li.' + type).addClass('highlight');
+  $('.skills ul li:not(.' + type + ')').addClass('shade');
 }).on('mouseleave',function(){
-  $(this).attr('src',$(this).data('first'));
-})
+  var type = $(this).data('type');
+  $('.skills ul li').removeClass('highlight shade');
+});
