@@ -102,19 +102,22 @@ section {
       float: left;
       font-size: 1.1em;
       padding: 0.3em 0.8em;
-      color: $white;
+      color: $blue;
       margin-right: 0.5em;
       margin-bottom: 0.5em;
       border-radius: 3px;
-      background-color: $blue;
       transition: opacity .1s linear;
+      &.know {
+        border: 1px solid $blue;
+        opacity: 1;
+      }
       &.learning {
-        background-color: lighten($blue,10%);
+        border: 1px solid lighten($blue,10%);
         opacity: 0.6;
       }
       &.tolearn {
-        background-color: lighten($blue,20%);
-        opacity: 0.5;
+        border: 1px solid lighten($blue,20%);
+        opacity: 0.4;
       }
       &.highlight {
         opacity: 1;
