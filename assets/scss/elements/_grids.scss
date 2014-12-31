@@ -234,35 +234,3 @@ ul.grid{
 .col-11-12{
   @include setColWidth(11,12);
 }
-
-.col-1-13{
-  @include setColWidth(1,13);
-}
-
-.col-1-14{
-  @include setColWidth(1,14);
-}
-
-.col-1-15{
-  @include setColWidth(1,15);
-}
-
-.col-1-16{
-  @include setColWidth(1,16);
-}
-
-.col-1-17{
-  @include setColWidth(1,17);
-}
-
-.col-1-18{
-  @include setColWidth(1,18);
-}
-
-.col-1-19{
-  @include setColWidth(1,19);
-}
-
-.col-1-20{
-  @include setColWidth(1,20);
-}
