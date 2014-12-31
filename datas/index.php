@@ -192,6 +192,18 @@
       )
     )
   );
+  
+  $hackathons = array(
+    "2014" => array(
+      "HackNotts 2014" => "Best Use of SendGrid & Best Use of Braintree",
+      "McDonalds Hack 2014" => "First Grand Prize Winner",
+      "TechCrunch Disrupt EU Hackathon 2014" => "Best Use of ESRI Mapping",
+      "Foreign & Commonwealth Office Hack 2014" => "Winner of the Best App showing the value of diplomacy"
+    ),
+    "2013" => array(
+      "Hack4Good 0.2" => "Third Place"
+    )
+  );
 
   $blogs = array(
     "2014" => array(

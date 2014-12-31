@@ -55,6 +55,21 @@
     <? } ?>
   </section>
 
+  <section class="hackathons">
+    <h2>These are some hackathons i've attended</h2>
+    <? foreach ($hackathons as $year => $hackathonsinyear) { ?>
+      <div class="date"><?= $year ?></div>
+      <div class="hackathon-group">
+        <? foreach ($hackathonsinyear as $name => $award) { ?>
+          <div class="hackathon">
+            <h3><?= $award ?></h3>
+            <p><?= $name ?></p>
+          </div>
+        <? } ?>
+      </div>
+    <? } ?>
+  </section>
+
   <section class="posts">
     <h2>These are some things i've writtern</h2>
     <? foreach ($blogs as $year => $blogsinyear) { ?>
@@ -62,7 +77,7 @@
       <div class="post-group">
         <? foreach ($blogsinyear as $name => $data) { ?>
           <div class="post">
-            <h2><a href="<?= $data['url'] ?>" target=_blank><?= $name ?></a></h2>
+            <h3><a href="<?= $data['url'] ?>" target=_blank><?= $name ?></a></h3>
             <p><?= $data['snap'] ?></p>
           </div>
         <? } ?>

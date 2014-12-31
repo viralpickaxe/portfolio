@@ -74,7 +74,7 @@ footer {
 
 section {
   h2 {
-    font-size: 1.5em;
+    font-size: 1.8em;
     font-weight: 300;
     margin-bottom: 0.5em;
     margin-top: 0.5em;
@@ -130,14 +130,14 @@ section {
       display: inline;
     }
     ul {
-      margin-top: 1em;
+      margin-top: 1.4em;
       margin-left: 0.7em;
       li {
         font-size: 0.8em;
         cursor: pointer;
       }
     }
-    @media (max-width: 350px){
+    @media (max-width: 450px){
       h2,ul{
         display: block; float: none;
       }
@@ -241,7 +241,7 @@ section {
     }
     img {
       @extend .col-2-5;
-      @media (max-width: 500px){width:100%;}
+      @media (max-width: 500px){width:100%; margin-top: 1em;}
       border-radius: 5px;
       -webkit-box-shadow: 2px 4px 13px 0px rgba(50, 50, 50, 0.89);
       -moz-box-shadow:    2px 4px 13px 0px rgba(50, 50, 50, 0.89);
@@ -255,26 +255,26 @@ section {
   }
 }
 
-.posts {
+.hackathons,.posts {
   margin-top: 2em;
   .date {
     width: 100%;
     border-bottom: 1px solid $grey_dark;
   }
-  .post {
+  .hackathon,.post {
     padding-top: 15px;
-    border-bottom: 1px solid $grey_dark;
-    h2 {
+    h3 {
       margin: 0;
       padding: 0;
       font-weight: 400;
-      font-size: 2em;
+      font-size: 1.5em;
     }
     p {
+      margin-top: 0.5em;
       font-size: 1.2em;
     }
-    &.noborder {
-      border-bottom: 0;
+    &:last-of-type {
+      border-bottom: none;
     }
   }
 }
