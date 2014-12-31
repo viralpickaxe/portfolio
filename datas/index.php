@@ -192,4 +192,17 @@
       )
     )
   );
+
+  $blogs = array(
+    "2014" => array(
+      "Making Data Useful" => array(
+        "url" => "https://medium.com/thoughts-behind-whatleads-to/making-data-useful-2851ac7a9335",
+        "snap" => "My experience with public (gov) data, and how it could be improved."
+      ),
+      "Schools Getting in the Way of My Work" => array(
+        "url" => "https://medium.com/thoughts-behind-whatleads-to/schools-getting-in-the-way-of-my-work-5749cf53f110",
+        "snap" => "As some of you might know, starting up a social enterprise is pretty hard, but starting one while trying to complete GCSEs is even harder..."
+      )
+    )
+  );
 ?>

@@ -57,17 +57,17 @@
 
   <section class="posts">
     <h2>These are some things i've writtern</h2>
-    <div class="date">2014</div>
-    <div class="post-group">
-      <div class="post">
-        <h2><a href="https://medium.com/words-by-causehub-io/making-data-useful-2851ac7a9335" target=_blank>Making Data Useful</a></h2>
-        <p>My experience with public (gov) data, and how it could be improved</p>
+    <? foreach ($blogs as $year => $blogsinyear) { ?>
+      <div class="date"><?= $year ?></div>
+      <div class="post-group">
+        <? foreach ($blogsinyear as $name => $data) { ?>
+          <div class="post">
+            <h2><a href="<?= $data['url'] ?>" target=_blank><?= $name ?></a></h2>
+            <p><?= $data['snap'] ?></p>
+          </div>
+        <? } ?>
       </div>
-      <div class="post">
-        <h2><a href="https://medium.com/words-by-causehub-io/schools-getting-in-the-way-of-my-work-5749cf53f110" target=_blank>Schools Getting in the Way of My Work</a></h2>
-        <p>As some of you might know, starting up a social enterprise is pretty hard, but starting one while trying to complete GCSEs is even harder...</p>
-      </div>
-    </div>
+    <? } ?>
   </section>
 
   <section class="contact">

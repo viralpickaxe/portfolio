@@ -6,14 +6,52 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title><?php echo $_page['title']; ?></title>
+    <title><?= $_page['title'] ?></title>
 
-    <meta name="keywords" content="<?php echo $_page['keywords']; ?>">
-    <meta name="description" content="<?php echo $_page['description']; ?>" />
+    <meta name="keywords" content="<?= $_page['keywords'] ?>">
+    <meta name="description" content="<?= $_page['description'] ?>" />
 
+    <!-- Icons -->
     <meta name="theme-color" content="#0099FF">
-    <link rel="icon" sizes="192x192" href="/assets/img/profilepics/favicon192.png">
-    <link rel="shortcut icon" href="/favicon.ico?new=new"> 
+    <link rel="shortcut icon" href="/favicon.ico?new=new">
+    <link rel="apple-touch-icon" sizes="333x333" href="/assets/img/profilepics/333.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="/assets/img/profilepics/192.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/profilepics/152.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/profilepics/144.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/profilepics/120.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/profilepics/72.png">
+    <link rel="apple-touch-icon" sizes="96x96" href="/assets/img/profilepics/96.png">
+    <link rel="apple-touch-icon" sizes="64x64" href="/assets/img/profilepics/64.png">
+    <link rel="apple-touch-icon" sizes="32x32" href="/assets/img/profilepics/32.png">
+    <link rel="apple-touch-icon" sizes="16x16" href="/assets/img/profilepics/16.png">
+    <link rel="icon" sizes="333x333" href="/assets/img/profilepics/333.png">
+    <link rel="icon" sizes="192x192" href="/assets/img/profilepics/192.png">
+    <link rel="icon" sizes="152x152" href="/assets/img/profilepics/152.png">
+    <link rel="icon" sizes="144x144" href="/assets/img/profilepics/144.png">
+    <link rel="icon" sizes="120x120" href="/assets/img/profilepics/120.png">
+    <link rel="icon" sizes="72x72" href="/assets/img/profilepics/72.png">
+    <link rel="icon" sizes="96x96" href="/assets/img/profilepics/96.png">
+    <link rel="icon" sizes="64x64" href="/assets/img/profilepics/64.png">
+    <link rel="icon" sizes="32x32" href="/assets/img/profilepics/32.png">
+    <link rel="icon" sizes="16x16" href="/assets/img/profilepics/16.png">
+    <meta name="msapplication-TileColor" content="#0099FF" />
+    <meta name="msapplication-TileImage" content="/assets/img/profilepics/144.png" />
+
+    <!-- Open Graph Tags -->
+    <meta property="fb:app_id" content="401937653302924" />
+    <meta property="og:title" content="<?= $_page['title'] ?>" />
+    <meta property="og:site_name" content="iamjamiedavies.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:namespace" content="iamjamiedavies" />
+    <meta property="og:image" content="http://iamjamiedavies/assets/img/profilepics/333.png" />
+    <meta property="og:description" content="<?= $_page['description'] ?>" />
+
+    <!-- Twitter Card Tags -->
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:site" content="@viralpickaxe" />
+    <meta property="twitter:title" content="<?= $_page['title'] ?>" />
+    <meta property="twitter:description" content="<?= $_page['description'] ?>" />
+    <meta property="twitter:image" content="http://iamjamiedavies/assets/img/profilepics/333.png" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
@@ -46,15 +84,15 @@
       </ul>
     </header>
 
-    <?php include(DOCUMENT_ROOT.'/pages/'.$_page['file'].'.php'); ?>
+    <?php include(DOCUMENT_ROOT.'/pages/'.$_page['file'].'.php') ?>
 
     <footer>
       <div class="container">
-        © <?php echo date("Y"); ?> Jamie Davies.
+        © <?= date("Y") ?> Jamie Davies.
       </div>
     </footer>
 
   </body>
   <script src="assets/js/script.min.js"></script>
-  <script src="assets/js/pages/<?php echo $_page['file']; ?>.min.js"></script>
+  <script src="assets/js/pages/<?= $_page['file'] ?>.min.js"></script>
 </html>
