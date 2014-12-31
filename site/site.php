@@ -5,7 +5,7 @@
   $_page = array(
     'title' => 'err0r',
     'keywords' => 'jamie,davies,web,developer,full,stack,online,freelance,porfilio,modern,code,job,work',
-    'description' => 'My name is Jamie Davies, I am a Full Stack Web Developer',
+    'description' => 'My name is Jamie Davies, I\'m a Full Stack Web Developer',
     'file' => '404'
   );
 
