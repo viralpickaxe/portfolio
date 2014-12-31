@@ -78,9 +78,9 @@
         <li>I'm <span id="jobtitle-prefix">a</span> <strong id="jobtitle" data-jobtitleprefix="a" data-jobtitle="Full Stack Web Developer">Full Stack Web Developer</strong></li>
       </ul>
       <ul class="links">
-        <li><a href="http://github.com/viralpickaxe" target=_blank data-jobtitleprefix="an" data-jobtitle="Open Source Developer">GitHub</a></li>
-        <li><a href="http://twitter.com/viralpickaxe" target=_blank data-jobtitleprefix="an" data-jobtitle="Avid Tweeter">Twitter</a></li>
-        <li><a href="http://www.linkedin.com/in/viralpickaxe" target=_blank data-jobtitleprefix="a" data-jobtitle="Bid'nis Guy">LinkedIn</a></li>
+        <li><a href="http://github.com/viralpickaxe" target=_blank data-jobtitleprefix="an" data-jobtitle="Open Source Developer">GitHub <span class="icon-github"></span></a></li>
+        <li><a href="http://twitter.com/viralpickaxe" target=_blank data-jobtitleprefix="an" data-jobtitle="Avid Tweeter">Twitter <span class="icon-twitter"></span></a></li>
+        <li><a href="http://www.linkedin.com/in/viralpickaxe" target=_blank data-jobtitleprefix="a" data-jobtitle="Bid'nis Guy">LinkedIn <span class="icon-linkedin"></span></a></li>
       </ul>
     </header>
 

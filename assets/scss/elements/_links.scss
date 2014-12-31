@@ -4,14 +4,8 @@ header {
     color: $white;
     cursor: pointer;
     text-decoration: none;
-    &:after{
-      content: " <";
-    }
     &:hover {
       border-bottom: 1px dotted $white;
-      &:after{
-        font-weight: 600;
-      }
     }
   }
 }
