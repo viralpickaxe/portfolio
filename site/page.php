@@ -43,7 +43,7 @@
     <meta property="og:site_name" content="iamjamiedavies.com" />
     <meta property="og:type" content="website" />
     <meta property="og:namespace" content="iamjamiedavies" />
-    <meta property="og:image" content="http://iamjamiedavies/assets/img/profilepics/333.png" />
+    <meta property="og:image" content="http://iamjamiedavies.com/assets/img/profilepics/333.png" />
     <meta property="og:description" content="<?= $_page['description'] ?>" />
 
     <!-- Twitter Card Tags -->
@@ -51,7 +51,7 @@
     <meta property="twitter:site" content="@viralpickaxe" />
     <meta property="twitter:title" content="<?= $_page['title'] ?>" />
     <meta property="twitter:description" content="<?= $_page['description'] ?>" />
-    <meta property="twitter:image" content="http://iamjamiedavies/assets/img/profilepics/333.png" />
+    <meta property="twitter:image" content="http://iamjamiedavies.com/assets/img/profilepics/333.png" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">

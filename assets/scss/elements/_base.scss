@@ -108,11 +108,15 @@ section {
       border-radius: 3px;
       transition: opacity .1s linear;
       &.know {
-        border: 1px solid $blue;
+        //border: 1px solid $blue;
+        background: $blue;
+        color: $white;
         opacity: 1;
       }
       &.learning {
-        border: 1px solid lighten($blue,10%);
+        // border: 1px solid lighten($blue,10%);
+        background: lighten($blue,10%);
+        color: $white;
         opacity: 0.6;
       }
       &.tolearn {
@@ -221,16 +225,17 @@ section {
             background-color: $blue;
             float: left;
             font-size: 1em;
-            padding: 0.3em 0.8em;
             color: $white;
             margin-right: 0.5em;
             margin-bottom: 0.5em;
             border-radius: 3px;
             a {
               color: $white;
+              padding: 0.3em 0.8em;
               border-bottom: 0;
               cursor: pointer;
               text-decoration: none;
+              display: block;
               &:hover {
                 color: $white;
               }
