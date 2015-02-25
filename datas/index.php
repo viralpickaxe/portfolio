@@ -7,10 +7,10 @@
       "CSS / SCSS / Less" => "know",
       "Python" => "know",
       "Visual Basic" => "know",
-      "Java" => "learning",
-      "C / C++" => "tolearn",
-      "CoffeeScript" => "tolearn",
-      "Swift" => "tolearn"
+      "Swift" => "learning",
+      "C / C++" => "learning",
+      "Java" => "tolearn",
+      "CoffeeScript" => "tolearn"
     ),
     "Frameworks / Libraries" => array(
       "Node.js" => "know",
@@ -19,7 +19,7 @@
       "Restify" => "know",
       "React" => "know",
       "Sails.js" => "know",
-      "Laravel" => "learning",
+      "Laravel" => "know",
       "AngularJS" => "tolearn",
       "Backbone.js" => "tolearn"
     )
