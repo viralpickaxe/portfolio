@@ -8,8 +8,9 @@
       "Python" => "know",
       "Visual Basic" => "know",
       "Swift" => "learning",
-      "C / C++" => "learning",
+      "Objective C" => "learning",
       "Java" => "tolearn",
+      "C / C++" => "tolearn",
       "CoffeeScript" => "tolearn"
     ),
     "Frameworks / Libraries" => array(
