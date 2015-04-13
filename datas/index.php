@@ -45,6 +45,27 @@
   );
 
   $projects = array(
+    "2015" => array(
+      "NoNoSQL" => array(
+        "image" => "/assets/img/websites/nonosql.jpg",
+        "imageclass" => "",
+        "type" => array(
+          "text" => "Hackathon Project",
+          "color" => "blue"
+        ),
+        "tagline" => "Crowdless let's it's users visit their favourite attractions in London when they are less busy.",
+        "body" => array(
+          "We hacked the <a href='https://www.braintreepayments.com' target=_blank>Braintree Sandbox API</a> to host a NoSQL database with capability to create unlimited documents, for completely free.",
+          "This was done by abusing the custom fields on their customer object. Each custom field is only allowed a max of 255 characters and has to be created manually. Firstly we wrote a bot to submit the create form on the control panel thousands of times overnight. And then to fix the limit problem we just base58 encoded the file and then chopped it up into 255 character pieces, which was then spread out over the thousands of different fields.",
+          "We have then made an API which allows any file type to be uploaded and downloaded for this process to happen automaticaly.",
+          "<a href='http://challengepost.com/software/nonosql' target=_blank>Winner of \"Judges Pick Prize\", at MLH Landing 2015</a>"
+        ),
+        "whatidid" => "Although this was built as a joke",
+        "links" => array(
+          "ChallengePost" => "http://challengepost.com/software/nonosql"
+        )
+      )
+    ),
     "2014" => array(
       "Crowdless" => array(
         "image" => "/assets/img/websites/crowdless.png",
@@ -195,6 +216,9 @@
   );
   
   $hackathons = array(
+    "2015" => array(
+      "MLH Landing 2015" => "Judges Pick Prize"
+    ),
     "2014" => array(
       "HackNotts 2014" => "Best Use of SendGrid & Best Use of Braintree",
       "McDonalds Hack 2014" => "First Grand Prize Winner",
