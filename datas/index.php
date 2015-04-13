@@ -56,7 +56,7 @@
         "tagline" => "A Training website for TalkLife moderators and buddies",
         "body" => array(
           "A project that I worked on and am maintaining at TalkLife. It is both a training and management platform for TalkLife to train its moderators and buddies.",
-          "The backend is built in Node.js"
+          "The frontend uses React and is powered by a fully RESTful API writtern in Node.js (using reflux), which powers the course and quizzing system."
         ),
         "whatidid" => "I designed and programmed the backend and the frontend of this project",
         "links" => array(
