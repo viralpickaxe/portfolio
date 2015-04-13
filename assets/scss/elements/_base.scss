@@ -272,9 +272,9 @@ section {
 }
 
 .works {
-  margin-top: 2em;
   .work {
     padding-top: 15px;
+    border-bottom: 1px solid rgba(186, 186, 186, 0.38);
     h3 {
       margin: 0;
       padding: 0;
@@ -298,10 +298,9 @@ section {
 }
 
 .hackathons,.posts {
-  margin-top: 2em;
   .date {
     width: 100%;
-    border-bottom: 1px solid $grey_dark;
+    border-bottom: 1px solid rgba(186, 186, 186, 0.38);
   }
   .hackathon,.post {
     padding-top: 15px;
