@@ -46,6 +46,23 @@
 
   $projects = array(
     "2015" => array(
+      "TalkLife Training" => array(
+        "image" => "/assets/img/websites/talklifetraining.jpg",
+        "imageclass" => "",
+        "type" => array(
+          "text" => "TalkLife Project",
+          "color" => "talklife"
+        ),
+        "tagline" => "A Training website for TalkLife moderators and buddies",
+        "body" => array(
+          "A project that I worked on and am maintaining at TalkLife. It is both a training and management platform for TalkLife to train its moderators and buddies.",
+          "The backend is built in Node.js"
+        ),
+        "whatidid" => "I designed and programmed the backend and the frontend of this project",
+        "links" => array(
+          
+        )
+      ),
       "NoNoSQL" => array(
         "image" => "/assets/img/websites/nonosql.jpg",
         "imageclass" => "",
@@ -88,7 +105,7 @@
         )
       ),
       "Notifine" => array(
-        "image" => "/assets/img/websites/notifine.png",
+        "image" => "/assets/img/websites/notifine.jpg",
         "imageclass" => "",
         "type" => array(
           "text" => "Libary",
@@ -106,7 +123,7 @@
         )
       ),
       "screenie server" => array(
-        "image" => "/assets/img/websites/screenieserver.png",
+        "image" => "/assets/img/websites/screenieserver.jpg",
         "imageclass" => "",
         "type" => array(
           "text" => "Live Hack",
@@ -124,10 +141,10 @@
         )
       ),
       "pollr" => array(
-        "image" => "/assets/img/websites/pollr.png",
+        "image" => "/assets/img/websites/pollr.jpg",
         "imageclass" => "",
         "type" => array(
-          "text" => "Weekend Hack 14w33",
+          "text" => "Weekend Hack",
           "color" => "blue"
         ),
         "tagline" => "pollr. ask awesomely.",
@@ -142,11 +159,11 @@
         )
       ),
       "whatleads.to" => array(
-        "image" => "/assets/img/websites/whatleadsto.png",
+        "image" => "/assets/img/websites/whatleadsto.jpg",
         "imageclass" => "",
         "type" => array(
           "text" => "whatleads.to Project",
-          "color" => "black"
+          "color" => "whatleadsto"
         ),
         "tagline" => "Visualise what leads to your aims in just 2 steps.",
         "body" => array(
@@ -159,7 +176,7 @@
         )
       ),
       "Relations Tracker" => array(
-        "image" => "/assets/img/websites/relationstracker.png",
+        "image" => "/assets/img/websites/relationstracker.jpg",
         "imageclass" => "",
         "type" => array(
           "text" => "Hackathon Project",
@@ -179,7 +196,7 @@
     ),
     "2012" => array(
       "Pixel A Piece" => array(
-        "image" => "/assets/img/websites/pixelapiece.png",
+        "image" => "/assets/img/websites/pixelapiece.jpg",
         "imageclass" => "",
         "type" => array(
           "text" => "Personal Project",
@@ -197,7 +214,7 @@
     ),
     "2011" => array(
       "Minezone" => array(
-        "image" => "/assets/img/websites/minezone.png",
+        "image" => "/assets/img/websites/minezone.jpg",
         "imageclass" => "",
         "type" => array(
           "text" => "Personal Project",
@@ -215,6 +232,24 @@
     )
   );
   
+  $works = array(
+    "TalkLife" => array(
+      "role" => "(Idea) Hacker",
+      "url" => "http://talklife.co",
+      "period" => "Feb 2015 - Current"
+    ),
+    "whatleads.to" => array(
+      "role" => "Co-Founder, Developer and Infrastructure",
+      "url" => "http://whatleads.to",
+      "period" => "Jan 2014 - Feb 2015"
+    ),
+    "Innovation Warehouse" => array(
+      "role" => "Intern",
+      "url" => "http://www.innovationwarehouse.org/",
+      "period" => "Summer 2013"
+    )
+  );
+
   $hackathons = array(
     "2015" => array(
       "MLH Landing 2015" => "Judges Pick Prize"

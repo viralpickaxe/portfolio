@@ -55,8 +55,19 @@
     <? } ?>
   </section>
 
+  <section class="works">
+    <h2>These are some places i've worked</h2>
+    <? foreach ($works as $company => $info) { ?>
+      <div class="work">
+        <h3><a href="<?= $info['url'] ?>" target=_blank><?= $company ?></a></h3>
+        <h4><?= $info['role'] ?></h4>
+        <p><?= $info['period'] ?></p>
+      </div>
+    <? } ?>
+  </section>
+
   <section class="hackathons">
-    <h2>These are some hackathons i've attended</h2>
+    <h2>These are some hackathons i've done well in</h2>
     <? foreach ($hackathons as $year => $hackathonsinyear) { ?>
       <div class="date"><?= $year ?></div>
       <div class="hackathon-group">
