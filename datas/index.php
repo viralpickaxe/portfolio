@@ -75,7 +75,8 @@
           "We hacked the <a href='https://www.braintreepayments.com' target=_blank>Braintree Sandbox API</a> to host a \"NoSQL Database\" with capability to create unlimited documents, for completely free.",
           "This was done by abusing the custom fields on their customer object. Each custom field is only allowed a max of 255 characters and has to be created manually. Firstly we wrote a bot to submit the create form on the control panel thousands of times overnight. And then to fix the limit problem we just base58 encoded the file and then chopped it up into 255 character pieces, which was then spread out over the thousands of different fields.",
           "We have then made an API which allows any file type to be uploaded and downloaded for this process to happen automaticaly.",
-          "<a href='http://challengepost.com/software/nonosql' target=_blank>Winner of \"Judges Pick Prize\", at MLH Landing 2015</a>"
+          "<a href='http://challengepost.com/software/nonosql' target=_blank>Winner of \"Judges Pick Prize\", at MLH Landing 2015</a>",
+          "<a href='https://medium.com/@viralpickaxe/how-we-hacked-the-braintree-api-to-store-an-unlimited-number-of-files-302860736c25?source=latest' target=_blank>I also wrote this blog post that goes into more detail on how it was done</a>"
         ),
         "whatidid" => "Although this was built as a joke, the hack is technically pretty awesome",
         "links" => array(
@@ -266,6 +267,12 @@
   );
 
   $blogs = array(
+    "2015" => array(
+      "How we hacked the Braintree API to store an unlimited number of files" => array(
+        "url" => "https://medium.com/@viralpickaxe/how-we-hacked-the-braintree-api-to-store-an-unlimited-number-of-files-302860736c25",
+        "snap" => "Its 2015, and data is pretty important, so important that some companies are spending thousands, if not millions..."
+      )
+    ),
     "2014" => array(
       "Making Data Useful" => array(
         "url" => "https://medium.com/thoughts-behind-whatleads-to/making-data-useful-2851ac7a9335",
