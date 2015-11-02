@@ -1,12 +1,12 @@
 <?php
   $skills = array(
     "Languages" => array(
-      "PHP" => "know",
       "JavaScript" => "know",
+      "Python" => "know",
       "HTML" => "know",
       "CSS / SCSS / Less" => "know",
-      "Python" => "know",
-      "Visual Basic" => "know",
+      "VB.NET" => "know",
+      "PHP" => "know",
       "Swift" => "learning",
       "Objective C" => "learning",
       "Java" => "tolearn",
@@ -15,10 +15,11 @@
     ),
     "Frameworks / Libraries" => array(
       "Node.js" => "know",
+      "React" => "know",
+      "Flux / Reflux" => "know",
       "jQuery" => "know",
       "Express" => "know",
       "Restify" => "know",
-      "React" => "know",
       "Sails.js" => "know",
       "Laravel" => "know",
       "AngularJS" => "tolearn",
@@ -27,19 +28,23 @@
     ,
     "Databases" => array(
       "MySQL" => "know",
+      "MsSQL" => "know",
+      "DynamoDB" => "know",
       "MongoDB" => "know",
       "PostgreSQL" => "know"
     ),
     "Tools" => array(
       "Git" => "know",
+      "Webpack" => "know",
       "Gulp / Grunt" => "know"
     ),
     "Others" => array(
       "APIs" => "know",
-      "Payment Processing" => "know",
-      "REST/RESTful" => "know",
+      "REST / RESTful" => "know",
+      "Elastic Search" => "know",
       "Web Sockets" => "know",
       "Sysadmin" => "know",
+      "Payment Processing" => "know",
       "Vagrant" => "learning"
     )
   );
@@ -253,7 +258,7 @@
   
   $works = array(
     "TalkLife" => array(
-      "role" => "(Idea) Hacker",
+      "role" => "Hacker and Data Security Officer",
       "url" => "http://talklife.co",
       "period" => "Feb 2015 - Current"
     ),
