@@ -46,6 +46,24 @@
 
   $projects = array(
     "2015" => array(
+      "TalkLife Web" => array(
+        "image" => "/assets/img/websites/talklifeweb.jpg",
+        "imageclass" => "",
+        "type" => array(
+          "text" => "TalkLife Project",
+          "color" => "talklife"
+        ),
+        "tagline" => "The responsive web version of TalkLife",
+        "body" => array(
+          "This is one of the more major project I worked on while at TalkLife. It is the Web version of the app, so that users without iOS and Android devices can still access the TalkLife community.",
+          "I wrote the frontend using React and Reflux. The web version interacts with its own fully RESTful API writtern in Node.js which acts as a wrapper to the core SOAP TalkLife API.",
+          "I very much enjoyed working on this project because it allowed me to work with new technologies such a Elastic Search, which I had not had the opportunity to use before"
+        ),
+        "whatidid" => "I designed and programmed the entire backend and the frontend of this project",
+        "links" => array(
+          "Website" => "https://web.talklife.co"
+        )
+      ),
       "TalkLife Training" => array(
         "image" => "/assets/img/websites/talklifetraining.jpg",
         "imageclass" => "",
@@ -55,10 +73,10 @@
         ),
         "tagline" => "A Training website for TalkLife moderators and buddies",
         "body" => array(
-          "A project that I worked on and am maintaining at TalkLife. It is both a training and management platform for TalkLife to train its moderators and buddies.",
-          "The frontend uses React and is powered by a fully RESTful API writtern in Node.js (using reflux), which powers the course and quizzing system."
+          "A project that I worked on at TalkLife. It is both a training and management platform for TalkLife to train its moderators and buddies.",
+          "The frontend uses React and is powered by a fully RESTful API writtern in Node.js, which powers the course and quizzing system."
         ),
-        "whatidid" => "I designed and programmed the backend and the frontend of this project",
+        "whatidid" => "I designed and programmed the entire backend and the frontend of this project",
         "links" => array(
           
         )
