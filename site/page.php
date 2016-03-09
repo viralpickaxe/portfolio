@@ -12,37 +12,32 @@
     <meta name="description" content="<?= $_page['description'] ?>" />
 
     <!-- Icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/favi/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/assets/favi/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/favi/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/favi/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/favi/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/favi/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/favi/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/favi/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favi/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/assets/favi/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/assets/favi/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/assets/favi/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/assets/favi/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/assets/favi/manifest.json">
+    <link rel="mask-icon" href="/assets/favi/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="/assets/favi/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
     <meta name="theme-color" content="#0099FF">
-    <link rel="shortcut icon" href="/favicon.ico?new=new">
-    <link rel="apple-touch-icon" sizes="333x333" href="/assets/img/profilepics/333.png">
-    <link rel="apple-touch-icon" sizes="192x192" href="/assets/img/profilepics/192.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/profilepics/152.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/profilepics/144.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/profilepics/120.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/profilepics/72.png">
-    <link rel="apple-touch-icon" sizes="96x96" href="/assets/img/profilepics/96.png">
-    <link rel="apple-touch-icon" sizes="64x64" href="/assets/img/profilepics/64.png">
-    <link rel="apple-touch-icon" sizes="32x32" href="/assets/img/profilepics/32.png">
-    <link rel="apple-touch-icon" sizes="16x16" href="/assets/img/profilepics/16.png">
-    <link rel="icon" sizes="333x333" href="/assets/img/profilepics/333.png">
-    <link rel="icon" sizes="192x192" href="/assets/img/profilepics/192.png">
-    <link rel="icon" sizes="152x152" href="/assets/img/profilepics/152.png">
-    <link rel="icon" sizes="144x144" href="/assets/img/profilepics/144.png">
-    <link rel="icon" sizes="120x120" href="/assets/img/profilepics/120.png">
-    <link rel="icon" sizes="72x72" href="/assets/img/profilepics/72.png">
-    <link rel="icon" sizes="96x96" href="/assets/img/profilepics/96.png">
-    <link rel="icon" sizes="64x64" href="/assets/img/profilepics/64.png">
-    <link rel="icon" sizes="32x32" href="/assets/img/profilepics/32.png">
-    <link rel="icon" sizes="16x16" href="/assets/img/profilepics/16.png">
-    <meta name="msapplication-TileColor" content="#0099FF" />
-    <meta name="msapplication-TileImage" content="/assets/img/profilepics/144.png" />
 
     <!-- Open Graph Tags -->
     <meta property="fb:app_id" content="401937653302924" />
     <meta property="og:title" content="<?= $_page['title'] ?>" />
     <meta property="og:site_name" content="iamjamiedavies.com" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="http://iamjamiedavies.com/assets/img/profilepics/1024.png" />
+    <meta property="og:image" content="http://iamjamiedavies.com/assets/favi/apple-touch-icon-180x180.png" />
     <meta property="og:description" content="<?= $_page['description'] ?>" />
 
     <!-- Twitter Card Tags -->
@@ -50,7 +45,7 @@
     <meta property="twitter:site" content="@viralpickaxe" />
     <meta property="twitter:title" content="<?= $_page['title'] ?>" />
     <meta property="twitter:description" content="<?= $_page['description'] ?>" />
-    <meta property="twitter:image" content="http://iamjamiedavies.com/assets/img/profilepics/1024.png" />
+    <meta property="twitter:image" content="http://iamjamiedavies.com/assets/favi/apple-touch-icon-180x180.png" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">

@@ -31,6 +31,7 @@
       "MsSQL" => "know",
       "DynamoDB" => "know",
       "MongoDB" => "know",
+      "Redis" => "know",
       "PostgreSQL" => "know"
     ),
     "Tools" => array(
@@ -40,16 +41,54 @@
     ),
     "Others" => array(
       "APIs" => "know",
+      "RabbitMQ / Message Queues" => "know",
       "REST / RESTful" => "know",
       "Elastic Search" => "know",
       "Web Sockets" => "know",
       "Sysadmin" => "know",
       "Payment Processing" => "know",
-      "Vagrant" => "learning"
+      "Vagrant" => "learning",
+      "Docker" => "learning"
     )
   );
 
   $projects = array(
+    "2016" => array(
+      "Connect for Teams" => array(
+        "image" => "/assets/img/websites/connectforteams.jpg",
+        "imageclass" => "",
+        "type" => array(
+          "text" => "TalkLife Project",
+          "color" => "talklife"
+        ),
+        "tagline" => "Add a Therapist to your team",
+        "body" => array(
+          "Connect for Teams links in with TalkLife Connects network of accredited therapists to provide slack teams with the ability to chat with a therapist from the comfort of a Slack thread.",
+          "This slackbot service connects the Slack Realtime Messaging API to the Redis PUB/SUB datastore in TalkLife Connect. It is writtern in node.js, and the billing is powered by the Stripe API."
+        ),
+        "whatidid" => "Created a slackbot service that links into the already existing TalkLife Connect service",
+        "links" => array(
+          "Website" => "https://connect.talklife.co/teams"
+        )
+      ),
+      "TalkLife Connect" => array(
+        "image" => "/assets/img/websites/talklifeconnect.jpg",
+        "imageclass" => "",
+        "type" => array(
+          "text" => "TalkLife Project",
+          "color" => "talklife"
+        ),
+        "tagline" => "A Therapist in your pocket whenever you need them",
+        "body" => array(
+          "TalkLife Connect is a service that connects people with accredited therapists instantly at all hours of the day whenever they need to talk.",
+          "The frontend is a SPA writtern with React.js that interacts with a REST api using reflux. The REST API is writtern in node.js, it uses MondoDB as a datastore, socket.io for realtime functiality and Redis PUB/SUB to keep everything in sync when it needs scales up. Elastic Search also indexes all messages transferred between users to allow a speedy search service to lookup old conversations. Billing is powered by the Stripe API."
+        ),
+        "whatidid" => "Designed and implemented a scalable and confidential messenging system",
+        "links" => array(
+          "Website" => "https://connect.talklife.co"
+        )
+      )
+    ),
     "2015" => array(
       "TalkLife Web" => array(
         "image" => "/assets/img/websites/talklifeweb.jpg",
@@ -258,7 +297,7 @@
   
   $works = array(
     "TalkLife" => array(
-      "role" => "Hacker and Data Security Officer",
+      "role" => "Hacker and Developer",
       "url" => "http://talklife.co",
       "period" => "Feb 2015 - Current"
     ),
