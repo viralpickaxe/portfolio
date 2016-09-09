@@ -5,10 +5,10 @@
       "Python" => "know",
       "HTML" => "know",
       "CSS / SCSS / Less" => "know",
-      "VB.NET" => "know",
       "PHP" => "know",
+      "VB.NET" => "know",
       "Swift" => "learning",
-      "Objective C" => "learning",
+      "Go" => "tolearn",
       "Java" => "tolearn",
       "C / C++" => "tolearn",
       "CoffeeScript" => "tolearn"
@@ -37,18 +37,17 @@
     "Tools" => array(
       "Git" => "know",
       "Webpack" => "know",
-      "Gulp / Grunt" => "know"
+      "Gulp / Grunt" => "know",
+      "Mocha" => "know",
+      "Docker" => "know"
     ),
     "Others" => array(
       "APIs" => "know",
-      "RabbitMQ / Message Queues" => "know",
-      "REST / RESTful" => "know",
-      "Elastic Search" => "know",
+      "Message Queues" => "know",
       "Web Sockets" => "know",
+      "Elastic Search" => "know",
       "Sysadmin" => "know",
       "Payment Processing" => "know",
-      "Vagrant" => "learning",
-      "Docker" => "learning"
     )
   );
 

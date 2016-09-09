@@ -11,7 +11,7 @@
     <ul class="key">
       <li class="know" data-type="know">I know</li>
       <li class="learning" data-type="learning">I'm learning</li>
-      <li class="tolearn" data-type="tolearn">I want to learn</li>
+      <li class="tolearn" data-type="tolearn">Up Next</li>
     </ul>
   </section>
 
