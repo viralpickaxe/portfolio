@@ -1,7 +1,7 @@
 <?php
   $skills = array(
     "Languages" => array(
-      "JavaScript" => "know",
+      "JavaScript (+ES6)" => "know",
       "Python" => "know",
       "HTML" => "know",
       "CSS / SCSS / Less" => "know",
