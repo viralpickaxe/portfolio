@@ -53,11 +53,31 @@
 
   $projects = array(
     "2016" => array(
+      "TalkLife Admin Panel" => array(
+        "image" => "/assets/img/websites/talklifeadmin.jpg",
+        "imageclass" => "",
+        "type" => array(
+          "text" => "TalkLife",
+          "color" => "talklife"
+        ),
+        "tagline" => "The TalkLife Overview and Admin Panel",
+        "body" => array(
+          "This is one of the biggest projects I've worked on so far. This is the overview and admin dashboard for all of TalkLife and its connected services.",
+          "The first notable part of this was that I used JWT tokens for authorisation as opposed to traditional session/cookie based auth that i've used for all the past projects i've worked on.",
+          "As this plugs into our many different services (such as Connect and our Moderation platform) I had the chance to design a role based permissions system that lets you modify the permissions of a certain user or role group that they are a part of. An example of this is how our Therpists need to access the Connect chat client, but we don't want them accessing the Moderation section of the dashboard.",
+          "As well as this, this is where i've intergrated many of the interesting hacks that i've worked on in my free time, such as creating a visualization to view certain trending topic on talklife against time (see screenshot).",
+          "Another one of the interesting modules in the dashboard is the feed module, this is because all the posts have been run the <a href=\"http://talklife.co/research/\">machine learning classifier built by MIT</a>. The part I played in this was building a system to filter down and display users that trigger certain models, such as displaying all the users who's posts contain symptoms of \"planning suicide\""
+        ),
+        "whatidid" => "I created this entire dashboard, from design & frontend to the backend APIs that power it.",
+        "links" => array(
+          
+        )
+      ),
       "Connect for Teams" => array(
         "image" => "/assets/img/websites/connectforteams.jpg",
         "imageclass" => "",
         "type" => array(
-          "text" => "TalkLife Project",
+          "text" => "TalkLife",
           "color" => "talklife"
         ),
         "tagline" => "Add a Therapist to your team",
@@ -74,7 +94,7 @@
         "image" => "/assets/img/websites/talklifeconnect.jpg",
         "imageclass" => "",
         "type" => array(
-          "text" => "TalkLife Project",
+          "text" => "TalkLife",
           "color" => "talklife"
         ),
         "tagline" => "A Therapist in your pocket whenever you need them",
@@ -93,7 +113,7 @@
         "image" => "/assets/img/websites/talklifeweb.jpg",
         "imageclass" => "",
         "type" => array(
-          "text" => "TalkLife Project",
+          "text" => "TalkLife",
           "color" => "talklife"
         ),
         "tagline" => "The responsive web version of TalkLife",
