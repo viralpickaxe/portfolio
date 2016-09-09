@@ -68,7 +68,7 @@
           "As well as this, this is where i've intergrated many of the interesting hacks that i've worked on in my free time, such as creating a visualization to view certain trending topic on talklife against time (see screenshot).",
           "Another one of the interesting modules in the dashboard is the feed module, this is because all the posts have been run the <a href=\"http://talklife.co/research/\" target=_blank>machine learning classifier built by MIT</a>. The part I played in this was building a system to filter down and display users that trigger certain models, such as displaying all the users who's posts contain symptoms of \"planning suicide\""
         ),
-        "whatidid" => "I created this entire dashboard, from design & frontend to the backend APIs that power it.",
+        "whatidid" => "I created this entire dashboard, from design & frontend to the backend APIs that power it. The backend APIs from the different services are built in different languages but mostly node.js. The frontend is build completely using React.js and Flux.",
         "links" => array(
           
         )
