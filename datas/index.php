@@ -250,11 +250,12 @@
         ),
         "tagline" => "A pixel art creation/sharing site.",
         "body" => array(
-          "I haven't writtern this project description yet :("
+          "Pixel A Piece was a small pixel creation and sharing website that I made with a friend. Each pixel was 16x16 grid, the user would edit their pixel's using the flash editor, and then save/publish them.",
+          "Behind the scenes the pixels would be saved as arrays of color codes, and then would be recreated by a PHP draw function (not the most efficient way, but certainly interesting)"
         ),
         "whatidid" => "I built the backend and some of the frontend for this site. The design and flash pixel editor was done by <a href='http://www.direzdev.nn.pe/Portfolio/' target=_blank>Jacob Jergensen</a>.",
         "links" => array(
-          "Website" => "http://pixelapiece.com"
+          
         )
       )
     ),
@@ -268,9 +269,9 @@
         ),
         "tagline" => "A social network for the game, MineCraft.",
         "body" => array(
-          "I haven't writtern this project description yet :("
+          "MineZone was the first complete website that I built (that I am not completely embarrassed of). It was a small social network for the game Minecraft that allowed users to share resources such as skins, maps and servers."
         ),
-        "whatidid" => "I built both the backend and frontend of this site, later on <a href='http://www.direzdev.nn.pe/Portfolio/'' target=_blank>Jacob Jergensen</a> came on board and helped with the design. At the time of this project I only knew PHP, HTML and CSS so it was quite slow and clunky. (It is no longer online)",
+        "whatidid" => "I built both the backend and frontend of this site, later on <a href='http://www.direzdev.nn.pe/Portfolio/'' target=_blank>Jacob Jergensen</a> came on board and helped with the design. At the time of this project I only knew PHP, HTML and CSS so it was quite slow and clunky.",
         "links" => array(
           
         )

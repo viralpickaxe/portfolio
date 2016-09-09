@@ -99,7 +99,6 @@
   <section class="contact">
     <h2>Say hello to me</h2>
     <div>Tweet me<br><a href="http://twitter.com/viralpickaxe" target=_blank>@viralpickaxe</a></div>
-    <div>Email me<br><a href="mailto:hello@iamjamiedavies.com">hello@iamjamiedavies.com</a></span></div>
   </section>
 </main>
 
