@@ -108,23 +108,6 @@
           "Website" => "https://web.talklife.co"
         )
       ),
-      "TalkLife Training" => array(
-        "image" => "/assets/img/websites/talklifetraining.jpg",
-        "imageclass" => "",
-        "type" => array(
-          "text" => "TalkLife Project",
-          "color" => "talklife"
-        ),
-        "tagline" => "A Training website for TalkLife moderators and buddies",
-        "body" => array(
-          "A project that I worked on at TalkLife. It is both a training and management platform for TalkLife to train its moderators and buddies.",
-          "The frontend uses React and is powered by a fully RESTful API writtern in Node.js, which powers the course and quizzing system."
-        ),
-        "whatidid" => "I designed and programmed the entire backend and the frontend of this project",
-        "links" => array(
-          
-        )
-      ),
       "NoNoSQL" => array(
         "image" => "/assets/img/websites/nonosql.jpg",
         "imageclass" => "",
@@ -215,7 +198,7 @@
           "pollr was a little idea that I threw together on the weekend because I wanted to learn/use node.js, socket.io and mongoDB.",
           "pollr is a very simple website. As soon as you land on the website you are prompted to enter a question that you want to ask people. Once you do this, you are redirected to another page with your question and two buttons, yes and no. You can then share that link and when people vote either yes or no to your question, you will see the buttons flash and the counters increase."
         ),
-        "whatidid" => "This is a hack, it is in no way a finished product.",
+        "whatidid" => "This is a hack, just a hack.",
         "links" => array(
           "Website" => "http://pollr.iamjamiedavies.com",
           "GitHub" => "http://github.com/viralpickaxe/pollr"
