@@ -1,6 +1,7 @@
 <?php
   $skills = array(
     "Languages" => array(
+      "Typescript" => "know",
       "JavaScript (+ES6)" => "know",
       "Python" => "know",
       "HTML" => "know",
@@ -37,9 +38,10 @@
     "Tools" => array(
       "Git" => "know",
       "Webpack" => "know",
+      "Docker" => "know",
+      "Rollup" => "know",
       "Gulp / Grunt" => "know",
-      "Mocha" => "know",
-      "Docker" => "know"
+      "Mocha" => "know"
     ),
     "Others" => array(
       "APIs" => "know",
@@ -52,6 +54,25 @@
   );
 
   $projects = array(
+    "2017" => array(
+      "Doorpass" => array(
+        "image" => "/assets/img/websites/doorpass.jpg",
+        "imageclass" => "",
+        "type" => array(
+          "text" => "Doorpass",
+          "color" => "green"
+        ),
+        "tagline" => "Doorpass is the simplest and safest way to manage your team’s access to cloud services",
+        "body" => array(
+          "It does this by connecting with many different 3rd party SASS platforms such as GitHub, AWS and Mixpanel. And then provides a standard interface to invite users, assign their permissions and also remove them in one click when the time comes",
+          "Its built ontop of a scalable microservice driven platform writtern in Typescript. The frontend for the webapp is rendered using React.js however it uses a custom state and store engine that we built in house. It allows us to make sure the user is always seeing the latest version of any model, and also allows us to build features such as websocket model updating really easily."
+        ),
+        "whatidid" => "Wrote the majority of the frontend code, a lot of the different integrations and general general work on the rest of the Platform",
+        "links" => array(
+          "Website" => "https://doorpass.io"
+        )
+      ),
+    ),
     "2016" => array(
       "TalkLife Admin Panel" => array(
         "image" => "/assets/img/websites/talklifeadmin.jpg",
@@ -87,7 +108,6 @@
         ),
         "whatidid" => "Created a slackbot service that links into the already existing TalkLife Connect service",
         "links" => array(
-          "Website" => "https://connect.talklife.co/teams"
         )
       ),
       "TalkLife Connect" => array(
@@ -104,7 +124,6 @@
         ),
         "whatidid" => "Designed and implemented a scalable and confidential messenging system",
         "links" => array(
-          "Website" => "https://connect.talklife.co"
         )
       )
     ),
