@@ -64,7 +64,7 @@
         ),
         "tagline" => "Doorpass is the simplest and safest way to manage your team’s access to cloud services",
         "body" => array(
-          "It does this by connecting with many different 3rd party SASS platforms such as GitHub, AWS and Mixpanel. And then provides a standard interface to invite users, assign their permissions and also remove them in one click when the time comes",
+          "It does this by connecting with many different 3rd party SASS platforms such as GitHub, AWS and Mixpanel. It then provides a standard interface to invite users, assign their permissions and also remove them in one click when the time comes.",
           "Its built ontop of a scalable microservice driven platform writtern in Typescript. The frontend for the webapp is rendered using React.js however it uses a custom state and store engine that we built in house. It allows us to make sure the user is always seeing the latest version of any model, and also allows us to build features such as websocket model updating really easily."
         ),
         "whatidid" => "Wrote the majority of the frontend code, a lot of the different integrations and general work on the rest of the Platform",
