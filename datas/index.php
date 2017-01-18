@@ -56,7 +56,7 @@
   $projects = array(
     "2017" => array(
       "Doorpass" => array(
-        "image" => "/assets/img/websites/doorpass.jpg",
+        "image" => "/assets/img/websites/doorpass.png",
         "imageclass" => "",
         "type" => array(
           "text" => "Doorpass",
