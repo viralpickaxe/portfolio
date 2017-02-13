@@ -3,12 +3,12 @@
     "Languages" => array(
       "Typescript" => "know",
       "JavaScript (+ES6)" => "know",
+      "Swift" => "know",
       "Python" => "know",
       "HTML" => "know",
       "CSS / SCSS / Less" => "know",
       "PHP" => "know",
       "VB.NET" => "know",
-      "Swift" => "know",
       "Go" => "learning",
       "Java" => "tolearn",
       "C / C++" => "tolearn",
