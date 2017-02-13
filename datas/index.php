@@ -324,6 +324,11 @@
   );
   
   $works = array(
+    "Doorpass" => array(
+      "role" => "Co-Founder and Developer",
+      "url" => "http://doorpass.io",
+      "period" => "Jun 2016 - Current"
+    ),
     "TalkLife" => array(
       "role" => "Hacker and Developer",
       "url" => "http://talklife.co",
