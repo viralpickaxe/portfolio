@@ -8,8 +8,8 @@
       "CSS / SCSS / Less" => "know",
       "PHP" => "know",
       "VB.NET" => "know",
-      "Swift" => "learning",
-      "Go" => "tolearn",
+      "Swift" => "know",
+      "Go" => "learning",
       "Java" => "tolearn",
       "C / C++" => "tolearn",
       "CoffeeScript" => "tolearn"
@@ -25,8 +25,14 @@
       "Laravel" => "know",
       "AngularJS" => "tolearn",
       "Backbone.js" => "tolearn"
-    )
-    ,
+    ),
+    "Platforms" => array(
+      "Web" => "know",
+      "Server" => "know",
+      "iOS" => "know",
+      "Arduino" => "know",
+      "Android" => "tolearn"
+    ),
     "Databases" => array(
       "MySQL" => "know",
       "MsSQL" => "know",
