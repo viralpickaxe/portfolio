@@ -2,7 +2,7 @@
   <section class="quickabout">
     <p>
       I started programming when I was 8. 
-      I co-founded a startup called <a href="http://whatleads.to" target=_blank>whatleads.to</a> when I was 14. I'm now 17, and working at a startup called <a href="http://talklife.co" target=_blank>TalkLife</a>.
+      I co-founded a startup called <a href="http://whatleads.to" target=_blank>whatleads.to</a> when I was 14. I'm now 18, and working on a new startup, <a href="https://doorpass.io" target=_blank>Doorpass</a>.
     </p>
   </section>
 
