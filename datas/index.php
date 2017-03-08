@@ -330,9 +330,9 @@
       "period" => "Jun 2016 - Current"
     ),
     "TalkLife" => array(
-      "role" => "Hacker and Developer",
+      "role" => "Developer",
       "url" => "http://talklife.co",
-      "period" => "Feb 2015 - Current"
+      "period" => "Feb 2015 - Feb 2017"
     ),
     "whatleads.to" => array(
       "role" => "Co-Founder, Developer and Infrastructure",
