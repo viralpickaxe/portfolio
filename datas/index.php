@@ -130,7 +130,7 @@
         ),
         "whatidid" => "Designed and implemented a scalable and confidential messenging system",
         "links" => array(
-          "Wired Article": "https://www.wired.co.uk/article/talklife-connect-slack-mental-health-therapy"
+          "Wired Article" => "https://www.wired.co.uk/article/talklife-connect-slack-mental-health-therapy"
         )
       )
     ),
