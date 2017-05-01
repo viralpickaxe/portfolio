@@ -32,7 +32,7 @@
     ),
     "Databases" => array(
       "MySQL" => "know",
-      "PostgreSQL" => "know"
+      "PostgreSQL" => "know",
       "MsSQL" => "know",
       "DynamoDB" => "know",
       "MongoDB" => "know",
