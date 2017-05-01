@@ -114,6 +114,7 @@
         ),
         "whatidid" => "Created a slackbot service that links into the already existing TalkLife Connect service",
         "links" => array(
+          "Wired Article" => "https://www.wired.co.uk/article/talklife-connect-slack-mental-health-therapy"
         )
       ),
       "TalkLife Connect" => array(
@@ -130,7 +131,7 @@
         ),
         "whatidid" => "Designed and implemented a scalable and confidential messenging system",
         "links" => array(
-          "Wired Article": "https://www.wired.co.uk/article/talklife-connect-slack-mental-health-therapy"
+          "Wired Article" => "https://www.wired.co.uk/article/talklife-connect-slack-mental-health-therapy"
         )
       )
     ),
