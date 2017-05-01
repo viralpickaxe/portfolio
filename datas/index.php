@@ -11,20 +11,17 @@
       "VB.NET" => "know",
       "Go" => "learning",
       "Java" => "tolearn",
-      "C / C++" => "tolearn",
-      "CoffeeScript" => "tolearn"
+      "C / C++" => "tolearn"
     ),
     "Frameworks / Libraries" => array(
       "Node.js" => "know",
       "React" => "know",
-      "Flux / Reflux" => "know",
+      "Flux / Redux" => "know",
       "jQuery" => "know",
       "Express" => "know",
-      "Restify" => "know",
-      "Sails.js" => "know",
       "Laravel" => "know",
-      "AngularJS" => "tolearn",
-      "Backbone.js" => "tolearn"
+      "Backbone.js" => "know",
+      "AngularJS" => "tolearn"
     ),
     "Platforms" => array(
       "Web" => "know",
@@ -35,11 +32,11 @@
     ),
     "Databases" => array(
       "MySQL" => "know",
+      "PostgreSQL" => "know"
       "MsSQL" => "know",
       "DynamoDB" => "know",
       "MongoDB" => "know",
-      "Redis" => "know",
-      "PostgreSQL" => "know"
+      "Redis" => "know"
     ),
     "Tools" => array(
       "Git" => "know",
@@ -47,15 +44,18 @@
       "Docker" => "know",
       "Rollup" => "know",
       "Gulp / Grunt" => "know",
-      "Mocha" => "know"
+      "Mocha" => "know",
+      "Travis" => "know"
     ),
     "Others" => array(
       "APIs" => "know",
-      "Message Queues" => "know",
+      "Microservices" => "know",
       "Web Sockets" => "know",
+      "Analytics" => "know",
       "Elastic Search" => "know",
       "Sysadmin" => "know",
-      "Payment Processing" => "know",
+      "Social" => "know",
+      "Payment Processing" => "know"
     )
   );
 
