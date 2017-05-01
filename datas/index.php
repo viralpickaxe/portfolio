@@ -210,7 +210,6 @@
         ),
         "whatidid" => "I built most of this pretty quickly while on the train. And then just threw this documetation page together on the weekend.",
         "links" => array(
-          "Website" => "http://notifine.iamjamiedavies.com",
           "GitHub" => "http://github.com/viralpickaxe/notifine"
         )
       ),
@@ -246,7 +245,6 @@
         ),
         "whatidid" => "This is a hack, just a hack.",
         "links" => array(
-          "Website" => "http://pollr.iamjamiedavies.com",
           "GitHub" => "http://github.com/viralpickaxe/pollr"
         )
       ),
@@ -264,7 +262,7 @@
         ),
         "whatidid" => "On this project I am in charge of programming the backend. In this case the backend is a REST API writtern in PHP. I also write a lot of the frontend code to both fetch data from the API and also to generate the visualisations.",
         "links" => array(
-          "Website" => "http://whatleads.to"
+          
         )
       ),
       "Relations Tracker" => array(
