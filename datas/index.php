@@ -324,15 +324,15 @@
   );
   
   $works = array(
-    "Doorpass" => array(
-      "role" => "Co-Founder and Developer",
-      "url" => "http://doorpass.io",
-      "period" => "Jun 2016 - Current"
-    ),
     "TalkLife" => array(
       "role" => "Developer",
       "url" => "http://talklife.co",
-      "period" => "Feb 2015 - Feb 2017"
+      "period" => "Feb 2015 - Current"
+    ),
+    "Doorpass" => array(
+      "role" => "Co-Founder and Developer",
+      "url" => "http://doorpass.io",
+      "period" => "Jun 2016 - Mar 2017"
     ),
     "whatleads.to" => array(
       "role" => "Co-Founder, Developer and Infrastructure",
