@@ -69,7 +69,7 @@
     <header>
       <ul class="leadin">
         <li>Hey there, I'm <strong>Jamie Davies</strong>,</li>
-        <li>I'm <span id="jobtitle-prefix">a</span> <strong id="jobtitle" data-jobtitleprefix="a" data-jobtitle="Full Stack Web Developer">Full Stack Web Developer</strong></li>
+        <li>I'm <span id="jobtitle-prefix">a</span> <strong id="jobtitle" data-jobtitleprefix="a" data-jobtitle="Full Stack Web Developer">Full Stack Developer</strong></li>
       </ul>
       <ul class="links">
         <li><a href="http://github.com/viralpickaxe" target=_blank data-jobtitleprefix="an" data-jobtitle="Open Source Developer">GitHub <span class="icon-github"></span></a></li>
