@@ -98,6 +98,7 @@
   <section class="contact">
     <h2>Say hello to me</h2>
     <div>Tweet me<br><a href="http://twitter.com/viralpickaxe" target=_blank>@viralpickaxe</a></div>
+    <div>Hire me<br><a href="/CV.pdf" target=_blank>CV</a></div>
   </section>
 </main>
 
