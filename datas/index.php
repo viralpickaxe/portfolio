@@ -61,6 +61,25 @@
 
   $projects = array(
     "2017" => array(
+      "TalkLife Clarity" => array(
+        "image" => "/assets/img/websites/talklifeclarity.jpg",
+        "imageclass" => "",
+        "type" => array(
+          "text" => "TalkLife",
+          "color" => "talklife"
+        ),
+        "tagline" => "TalkLife Clarity automatically tags your content with 40+ advanced mental health models helping you quickly take nessesary action on users in danger",
+        "body" => array(
+          "This is the final large project I worked on at TalkLife. We decided to build Clarity after much success of using the machine learning models that MIT and Microsoft Research developed, internally.",
+          "This is an invite only SASS platform that has a similar billing system to the likes of AWS and Google Cloud. The customer makes as many classification requests as they want during the month and they get invoiced at the end per request.",
+          "Its built ontop of a scalable microservice driven platform writtern in Typescript. The frontend is writtern in React and uses the same custom State model used in Doorpass. The API is pretty simple as it just takes the incomming requests throws them onto a queue for the ML workers to classify them. Its written in Node.js and uses RabbitMQ for the worker queue. It also uses GoCardless for direct debit billing at the end of the month."
+        ),
+        "whatidid" => "Again I worked on this project completely alone, building and designing everything from Dashboard frontend to the backend Architecture powering it",
+        "links" => array(
+          "Website" => "https://talklifeclarity.com",
+          "API Docs" => "https://docs.talklifeclarity.com",
+        )
+      ),
       "Doorpass" => array(
         "image" => "/assets/img/websites/doorpass.png",
         "imageclass" => "",
@@ -77,7 +96,7 @@
         "links" => array(
           "Website" => "https://doorpass.io"
         )
-      ),
+      )
     ),
     "2016" => array(
       "TalkLife Admin Panel" => array(
