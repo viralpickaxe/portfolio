@@ -346,7 +346,7 @@
     "TalkLife" => array(
       "role" => "Developer",
       "url" => "http://talklife.co",
-      "period" => "Feb 2015 - Current"
+      "period" => "Feb 2015 - Aug 2017"
     ),
     "Doorpass" => array(
       "role" => "Co-Founder and Developer",
