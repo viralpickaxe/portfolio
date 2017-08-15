@@ -1,7 +1,7 @@
 <main>
   <section class="quickabout">
     <p>
-      I started programming when I was 8. I Co-Founded a startup called whatleads.to when I was 14, and <a href="https://doorpass.io" target=_blank>Doorpass</a> when I was 17, I'm now 18 and looking for new and interesting challenges!
+      I started programming when I was 8. I Co-Founded a startup called whatleads.to when I was 14, and <a href="https://doorpass.io" target=_blank>Doorpass</a> when I was 17.
     </p>
   </section>
 
