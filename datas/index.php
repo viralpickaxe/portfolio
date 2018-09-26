@@ -116,7 +116,7 @@
         ),
         "whatidid" => "I created this entire dashboard, from design & frontend to the backend APIs that power it. The backend APIs from the different services are built in different languages but mostly node.js. The frontend is build completely using React.js and Flux.",
         "links" => array(
-          
+
         )
       ),
       "Connect for Teams" => array(
@@ -281,7 +281,7 @@
         ),
         "whatidid" => "On this project I am in charge of programming the backend. In this case the backend is a REST API writtern in PHP. I also write a lot of the frontend code to both fetch data from the API and also to generate the visualisations.",
         "links" => array(
-          
+
         )
       ),
       "Relations Tracker" => array(
@@ -318,7 +318,7 @@
         ),
         "whatidid" => "I built the backend and some of the frontend for this site. The design and flash pixel editor was done by <a href='http://www.direzdev.nn.pe/Portfolio/' target=_blank>Jacob Jergensen</a>.",
         "links" => array(
-          
+
         )
       )
     ),
@@ -336,13 +336,18 @@
         ),
         "whatidid" => "I built both the backend and frontend of this site, later on <a href='http://www.direzdev.nn.pe/Portfolio/'' target=_blank>Jacob Jergensen</a> came on board and helped with the design. At the time of this project I only knew PHP, HTML and CSS so it was quite slow and clunky.",
         "links" => array(
-          
+
         )
       )
     )
   );
-  
+
   $works = array(
+    "Yieldify" => array(
+      "role" => "Developer",
+      "url" => "https://yieldify.com",
+      "period" => "Aug 2017 - Current"
+    ),
     "TalkLife" => array(
       "role" => "Developer",
       "url" => "http://talklife.co",
