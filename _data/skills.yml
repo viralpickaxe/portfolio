@@ -1,0 +1,107 @@
+- title: Languages
+  skills:
+    - name: Typescript
+      ability: know
+    - name: JavaScript (+ES6)
+      ability: know
+    - name: Swift
+      ability: know
+    - name: Python
+      ability: know
+    - name: HTML
+      ability: know
+    - name: CSS / SCSS / Less
+      ability: know
+    - name: PHP
+      ability: know
+    - name: VB.NET
+      ability: know
+    - name: Go
+      ability: learning
+    - name: Java
+      ability: tolearn
+    - name: C / C++
+      ability: tolearn
+
+- title: Frameworks / Libraries
+  skills:
+    - name: Node.js
+      ability: know
+    - name: React
+      ability: know
+    - name: Flux / Redux
+      ability: know
+    - name: jQuery
+      ability: know
+    - name: Express
+      ability: know
+    - name: Laravel
+      ability: know
+    - name: Backbone.js
+      ability: know
+    - name: AngularJS
+      ability: tolearn
+
+- title: Platforms
+  skills:
+    - name: Web
+      ability: know
+    - name: Server
+      ability: know
+    - name: iOS
+      ability: know
+    - name: Arduino
+      ability: know
+    - name: Android
+      ability: tolearn
+
+- title: Databases
+  skills:
+    - name: MySQL
+      ability: know
+    - name: PostgreSQL
+      ability: know
+    - name: MsSQL
+      ability: know
+    - name: DynamoDB
+      ability: know
+    - name: MongoDB
+      ability: know
+    - name: Redis
+      ability: know
+
+- title: Tools
+  skills:
+    - name: Git
+      ability: know
+    - name: Webpack
+      ability: know
+    - name: Docker
+      ability: know
+    - name: Rollup
+      ability: know
+    - name: Gulp / Grunt
+      ability: know
+    - name: Mocha
+      ability: know
+    - name: Travis
+      ability: know
+
+- title: Others
+  skills:
+    - name: APIs
+      ability: know
+    - name: Microservices
+      ability: know
+    - name: Web Sockets
+      ability: know
+    - name: Analytics
+      ability: know
+    - name: Elastic Search
+      ability: know
+    - name: Sysadmin
+      ability: know
+    - name: Social
+      ability: know
+    - name: Payment Processing
+      ability: know

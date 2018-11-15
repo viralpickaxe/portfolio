@@ -1,3 +1,5 @@
 *.scssc
 config.codekit
 .DS_STORE
+.sass-cache
+_site
