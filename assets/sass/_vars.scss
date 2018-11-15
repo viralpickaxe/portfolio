@@ -1,29 +1,9 @@
-$black : #303030;
-$white : #ffffff;
+$background: rgb(10, 25, 47);
 
-$grey : #E5E5E5;
-$blue : #0099FF;
-$green : #5AB55A;
-$red : #FF4747;
-$orange : #FFA500;
-$purple : #C646C6;
+$primary: rgb(100, 255, 218);
 
-$blue_active : lighten($blue, 15%);
+$font-primary: rgb(230, 241, 255);
+$font-secondary-light: rgb(204, 214, 246);
+$font-secondary: rgb(136, 146, 176);
 
-$grey_light : lighten($grey, 5%);
-$grey_dark : darken($grey, 30%);
-
-$blue_light : lighten($blue, 15%);
-$blue_dark : darken($blue, 15%);
-
-$green_light : lighten($green, 15%);
-$green_dark : darken($green, 15%);
-
-$red_light : lighten($red, 15%);
-$red_dark : darken($red, 15%);
-
-$orange_light : lighten($orange, 15%);
-$orange_dark : darken($orange, 15%);
-
-$purple_light : lighten($purple, 15%);
-$purple_dark : darken($purple, 15%);
+$animate: cubic-bezier(0.645, 0.045, 0.355, 1);
