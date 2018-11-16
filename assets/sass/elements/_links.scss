@@ -1,0 +1,30 @@
+a {
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  text-decoration-skip-ink: auto;
+  transition: all 0.25s $animate 0s;
+}
+
+a.link {
+  color: $primary;
+  text-decoration-skip-ink: auto;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 0px;
+    height: 1px;
+    position: relative;
+    bottom: 0.32em;
+    background-color: $primary;
+    transition: all 0.25s $animate 0s;
+  }
+
+  &:hover {
+    &::after {
+      width: 100%;
+    }
+  }
+}

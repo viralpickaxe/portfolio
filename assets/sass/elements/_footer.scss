@@ -1,0 +1,28 @@
+.footer__FooterContainer {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: $background-dark;
+  color: $font-secondary;
+  text-align: center;
+  height: auto;
+  padding: 15px;
+}
+
+.footer__Copy {
+  margin: 5px 0px 3px;
+}
+
+.footer__CopyLink {
+  color: $font-secondary;
+  font-family: $SFMono;
+  font-size: 12px;
+  color: inherit;
+
+  &:hover {
+    color: $primary;
+  }
+}
