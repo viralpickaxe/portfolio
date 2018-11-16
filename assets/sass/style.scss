@@ -6,10 +6,17 @@
 @import "elements/links";
 @import "elements/buttons";
 
+@import "elements/base";
+
 @import "elements/social";
 @import "elements/email";
 @import "elements/header";
 @import "elements/footer";
+@import "elements/sections";
 @import "elements/main";
 
-@import "elements/base";
+
+@import "sections/about";
+@import "sections/jobs";
+@import "sections/projects";
+@import "sections/contact";
