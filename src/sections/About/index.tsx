@@ -3,6 +3,19 @@ import styles from './About.module.scss'
 import Section from '../../components/Section';
 
 export default class About extends React.Component<{}, {}> {
+  private skills: string[] = [
+    'JavaScript',
+    'TypeScript',
+    'Node.js',
+    'React',
+    'HTML & CSS',
+    'Python',
+    'PHP',
+    'Docker',
+    'SQL',
+    'noSQL',
+  ];
+
   public render() {
     return (
       <Section id="about" title="About Me" className={styles.AboutContainer}>
@@ -12,16 +25,7 @@ export default class About extends React.Component<{}, {}> {
             <p>For the past 5+ years, I've been honing my skills in web, backend and more recently iOS development. I enjoy constantly learning and improving my skills with the technologies that keep evolving in this ever-changing field!</p>
             <p>Here's a few things I'm experienced with:</p>
             <ul className={styles.SkillsContainer}>
-              <li className={styles.Skill}>JavaScript</li>
-              <li className={styles.Skill}>TypeScript</li>
-              <li className={styles.Skill}>Node.js</li>
-              <li className={styles.Skill}>React</li>
-              <li className={styles.Skill}>HTML & CSS</li>
-              <li className={styles.Skill}>Python</li>
-              <li className={styles.Skill}>PHP</li>
-              <li className={styles.Skill}>Docker</li>
-              <li className={styles.Skill}>SQL</li>
-              <li className={styles.Skill}>noSQL</li>
+              {this.skills.map((skill) => <li key={skill} className={styles.Skill}>{skill}</li>)}
             </ul>
           </div>
           <div className={styles.PicContainer}>

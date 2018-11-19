@@ -14,6 +14,7 @@
     "node-sass": "^4.10.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
+    "react-helmet": "^5.2.0",
     "typescript": "^3.1.6"
   },
   "repository": {
@@ -25,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/viralpickaxe/iamjamiedavies-portfolio/issues"
   },
-  "homepage": "https://github.com/viralpickaxe/iamjamiedavies-portfolio#readme"
+  "homepage": "https://github.com/viralpickaxe/iamjamiedavies-portfolio#readme",
+  "devDependencies": {
+    "@types/react-helmet": "^5.0.7"
+  }
 }

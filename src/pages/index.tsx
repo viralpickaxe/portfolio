@@ -9,11 +9,13 @@ import About from '../sections/About';
 import Jobs from '../sections/Jobs';
 import Projects from '../sections/Projects';
 import Contact from '../sections/Contact';
+import Head from '../components/Head';
 
 export default class IndexPage extends React.Component<{}, {}> {
   public render() {
     return (
       <div>
+        <Head />
         <Header />
         <main className={styles.Main}>
           <Hero />
