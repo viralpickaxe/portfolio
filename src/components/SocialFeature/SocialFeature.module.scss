@@ -1,4 +1,6 @@
-.social__SocialContainer {
+@import "../../../assets/sass/vars";
+
+.SocialContainer {
   width: 40px;
   position: fixed;
   bottom: 0px;
@@ -15,7 +17,7 @@
   }
 }
 
-.social__SocialItemList {
+.SocialItemList {
   padding: 0px;
   margin: 0px;
   list-style: none;
@@ -25,7 +27,7 @@
   align-items: center;
 }
 
-.social__SocialItem {
+.SocialItem {
   display: list-item;
   text-align: -webkit-match-parent;
 

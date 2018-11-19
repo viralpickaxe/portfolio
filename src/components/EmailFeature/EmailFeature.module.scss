@@ -1,4 +1,6 @@
-.email__EmailContainer {
+@import "../../../assets/sass/vars";
+
+.EmailContainer {
   width: 40px;
   position: fixed;
   bottom: 0px;
@@ -15,7 +17,7 @@
   }
 }
 
-.email__EmailLinkWrapper {
+.EmailLinkWrapper {
   display: flex;
   flex-direction: column;
   -webkit-box-align: center;
@@ -25,7 +27,7 @@
   margin: 0px auto;
 }
 
-.email__EmailLink {
+.EmailLink {
   font-family: $SFMono;
   font-size: 12px;
   letter-spacing: 0.5px;

@@ -1,13 +1,6 @@
-a {
-  position: relative;
-  cursor: pointer;
-  text-decoration: none;
-  display: inline-block;
-  text-decoration-skip-ink: auto;
-  transition: all 0.25s $animate 0s;
-}
+@import "../../../assets/sass/vars";
 
-a.link {
+.Link {
   color: $primary;
   text-decoration-skip-ink: auto;
 

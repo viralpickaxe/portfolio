@@ -1,4 +1,6 @@
-.header__HeaderContainer {
+@import "../../../assets/sass/vars";
+
+.HeaderContainer {
   position: fixed;
   top: 0px;
   width: 100%;
@@ -9,7 +11,7 @@
   background: $background;
 }
 
-.header__Navbar {
+.Navbar {
   width: 100%;
   font-family: $SFMono;
   counter-reset: item 0;
@@ -20,23 +22,28 @@
   justify-content: space-between;
   -webkit-box-align: center;
   align-items: center;
+
+  .ResumeButton {
+    margin-left: 10px;
+    padding: 12px 17px;
+  }
 }
 
-.header__NavLinks {
+.NavLinks {
   display: flex;
   -webkit-box-align: center;
   align-items: center;
 }
 
-.header__NavList {
+.NavList {
   padding: 0px;
   margin: 0px;
   list-style: none;
 }
 
-.header__NavListItem {
+.NavListItem {
   display: inline-block;
-  margin: 0px 7px;
+  margin: 0px 10px;
   font-size: 13px;
   counter-increment: item 1;
   position: relative;
@@ -49,16 +56,11 @@
   }
 }
 
-.header__NavLink {
-  padding: 12px 1px;
+.NavLink {
+  padding: 12px 10px;
   color: $font-secondary-light;
 
   &:hover {
     color: $primary;
   }
-}
-
-.header__ResumeButton {
-  margin-left: 20px;
-  padding: 12px 17px;
 }

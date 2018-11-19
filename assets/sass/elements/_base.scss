@@ -12,3 +12,12 @@ body {
   font-size: 20px;
   -webkit-font-smoothing: antialiased;
 }
+
+a {
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  text-decoration-skip-ink: auto;
+  transition: all 0.25s $animate 0s;
+}

@@ -1,4 +1,6 @@
-.footer__FooterContainer {
+@import "../../../assets/sass/vars";
+
+.FooterContainer {
   display: flex;
   -webkit-box-pack: center;
   justify-content: center;
@@ -12,11 +14,11 @@
   padding: 15px;
 }
 
-.footer__Copy {
+.Copy {
   margin: 5px 0px 3px;
 }
 
-.footer__CopyLink {
+.CopyLink {
   color: $font-secondary;
   font-family: $SFMono;
   font-size: 12px;
