@@ -1,11 +1,6 @@
-.main {
-  width: 100%;
-  counter-reset: section 0;
-  margin: 0px auto;
-  padding: 0px 150px;
-}
+@import "../../../assets/sass/vars";
 
-.hero__heroContainer {
+.HeroContainer {
   max-width: 1000px;
   display: flex;
   -webkit-box-pack: center;
@@ -18,14 +13,14 @@
   padding: 150px 0px;
 }
 
-.hero__Hi {
+.Hi {
   color: $primary;
   font-size: 16px;
   font-family: $SFMono;
   margin: 0px 0px 20px 3px;
 }
 
-.hero__Name {
+.Name {
   font-weight: 600;
   color: $font-primary;
   font-size: 80px;
@@ -33,7 +28,7 @@
   margin: 0px;
 }
 
-.hero__Subtitle {
+.Subtitle {
   font-size: 80px;
   line-height: 1.1;
   color: $font-secondary;
@@ -42,7 +37,7 @@
   margin: 0px 0px 10px;
 }
 
-.hero__Blurb {
+.Blurb {
   margin-top: 25px;
   max-width: 500px;
 
@@ -51,6 +46,6 @@
   }
 }
 
-.hero__Contact {
+.Contact {
   margin-top: 50px;
 }

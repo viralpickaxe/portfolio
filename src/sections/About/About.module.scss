@@ -1,11 +1,13 @@
-.about__AboutContainer {
+@import "../../../assets/sass/vars";
+
+.AboutContainer {
   max-width: 1000px;
   position: relative;
   margin: 0px auto;
   padding: 150px 0px;
 }
 
-.about__FlexContainer {
+.FlexContainer {
   display: flex;
   -webkit-box-pack: justify;
   justify-content: space-between;
@@ -13,7 +15,7 @@
   align-items: flex-start;
 }
 
-.about__ContentContainer {
+.ContentContainer {
   width: 60%;
   max-width: 480px;
 
@@ -22,7 +24,7 @@
   }
 }
 
-.about__SkillsContainer {
+.SkillsContainer {
   display: grid;
   grid-template-columns: minmax(140px, 200px) minmax(140px, 200px);
   margin-bottom: 20px 0 0;
@@ -31,7 +33,7 @@
   list-style: none;
 }
 
-.about__Skill {
+.Skill {
   position: relative;
   margin-bottom: 10px;
   padding-left: 20px;
@@ -49,7 +51,7 @@
   }
 }
 
-.about__PicContainer {
+.PicContainer {
   position: relative;
   width: 40%;
   max-width: 300px;
@@ -57,11 +59,11 @@
   background: $primary;
 }
 
-.about__AvatarContainer {
+.AvatarContainer {
   width: 100%;
 }
 
-.about__Avatar {
+.Avatar {
   width: 100%;
   position: relative;
   border-radius: 2px;
