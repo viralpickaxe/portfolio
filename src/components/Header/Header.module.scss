@@ -59,6 +59,7 @@
 .NavLink {
   padding: 12px 10px;
   color: $font-secondary-light;
+  transition: color 0.15s $animate 0s;
 
   &:hover {
     color: $primary;

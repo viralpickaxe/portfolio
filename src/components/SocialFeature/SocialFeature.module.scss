@@ -38,6 +38,7 @@
   a {
     color: inherit;
     padding: 10px;
+    transition: color 0.15s $animate 0s;
 
     svg {
       width: 18px;

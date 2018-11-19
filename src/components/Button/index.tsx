@@ -4,6 +4,7 @@ import styles from './Button.module.scss'
 export interface ButtonProps {
   className?: string;
   href: string;
+  style?: React.CSSProperties;
 }
 
 export default class Button extends React.Component<ButtonProps, {}> {
@@ -11,6 +12,6 @@ export default class Button extends React.Component<ButtonProps, {}> {
     const className = this.props.className ?
       [styles.Button, this.props.className].join(' ') : styles.Button;
 
-    return <a className={className} href={this.props.href}>{this.props.children}</a>;
+    return <a className={className} style={this.props.style} href={this.props.href}>{this.props.children}</a>;
   }
 }

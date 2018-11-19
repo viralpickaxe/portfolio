@@ -10,7 +10,7 @@
   border-radius: 2px;
   padding: 18px 23px;
   font-family: $SFMono;
-  transition: all 0.25s $animate 0s;
+  transition: background-color 0.15s $animate 0s;
 
   &:hover {
     background-color: transparentize($primary, 0.93);

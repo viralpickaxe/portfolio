@@ -13,6 +13,10 @@
   padding: 150px 0px;
 }
 
+.Hi, .Name, .Subtitle, .Blurb, .Contact {
+  position: relative;
+}
+
 .Hi {
   color: $primary;
   font-size: 16px;

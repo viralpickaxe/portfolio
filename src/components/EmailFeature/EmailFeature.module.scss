@@ -37,7 +37,7 @@
   padding: 10px;
   display: inline-block;
   color: inherit;
-  transition: all 0.25s $animate 0s;
+  transition: color 0.25s $animate 0s;
 
   &:hover {
     color: $primary;
