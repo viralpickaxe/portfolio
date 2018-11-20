@@ -4,12 +4,20 @@ import styles from './Header.module.scss'
 import Button from '../Button';
 import { animationDelays } from '../../animation-time-book';
 
+interface HeaderState {
+  lastScrollTop: number;
+  scrollDirection: 'up' | 'down' | 'none';
+}
+
 export interface NavLink {
   anchor: string;
   text: string;
 }
 
-export default class Header extends React.Component<{}, {}> {
+const SCROLL_DELTA = 5;
+const HEADER_HEIGHT = 100;
+
+export default class Header extends React.Component<{}, HeaderState> {
   public navLinks: NavLink[] = [
     { anchor: 'about', text: 'About'},
     { anchor: 'jobs', text: 'Experience'},
@@ -17,9 +25,57 @@ export default class Header extends React.Component<{}, {}> {
     { anchor: 'contact', text: 'Contact'},
   ];
 
+  public constructor(props: {}) {
+    super(props);
+
+    this.state = {
+      lastScrollTop: 0,
+      scrollDirection: 'none',
+    }
+  }
+
+  public componentDidMount() {
+    window.addEventListener('scroll', () => this.handleScroll());
+  }
+
+  public componentWillUnmount() {
+    window.removeEventListener('scroll', () => this.handleScroll());
+  }
+
+  public handleScroll() {
+    const { lastScrollTop, scrollDirection } = this.state;
+    const fromTop = window.scrollY;
+
+    if (Math.abs(lastScrollTop - fromTop) <= SCROLL_DELTA) {
+      return;
+    }
+
+    if (fromTop < SCROLL_DELTA) {
+      this.setState({ scrollDirection: 'none' });
+    } else if (fromTop > lastScrollTop && fromTop > HEADER_HEIGHT) {
+      if (scrollDirection !== 'down') {
+        this.setState({ scrollDirection: 'down' });
+      }
+    } else if (fromTop + window.innerHeight < document.body.scrollHeight) {
+      if (scrollDirection !== 'up') {
+        this.setState({ scrollDirection: 'up' });
+      }
+    }
+
+    this.setState({ lastScrollTop: fromTop });
+  };
+
   public render() {
+    let className = styles.HeaderContainer;
+
+    if (this.state.scrollDirection === 'down' && this.state.lastScrollTop > 120) {
+      className = [styles.HeaderContainer, styles.Hidden].join(' ');
+    } else if (this.state.lastScrollTop > SCROLL_DELTA) {
+      className = [styles.HeaderContainer, styles.Scrolling].join(' ');
+    }
+
     return (
-      <header className={styles.HeaderContainer}>
+      <header className={className}>
         <nav className={styles.Navbar}>
           <div></div>
           <div></div>
