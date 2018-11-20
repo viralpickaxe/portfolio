@@ -1,6 +1,7 @@
 import * as React from 'react'
 import styles from './Jobs.module.scss'
 import Section from '../../components/Section';
+import Link from '../../components/Link';
 
 export interface JobsState {
   tab: number;
@@ -8,6 +9,7 @@ export interface JobsState {
 
 export interface Job {
   company: string;
+  url?: string;
   role: string;
   period: string;
   description: string[];
@@ -17,6 +19,7 @@ export default class Jobs extends React.Component<{}, JobsState> {
   public jobs: Job[] = [
     {
       company: 'Yieldify',
+      url: 'https://yieldify.com',
       role: 'Software Engineer',
       period: 'Aug 2017 - Present',
       description: [
@@ -27,6 +30,7 @@ export default class Jobs extends React.Component<{}, JobsState> {
     },
     {
       company: 'TalkLife',
+      url: 'https://talklife.co',
       role: 'Full Stack Developer',
       period: 'Feb 2015 - Aug 2017',
       description: [
@@ -89,9 +93,9 @@ export default class Jobs extends React.Component<{}, JobsState> {
               <div
                 key={i}
                 className={styles.TabContent}
-                style={i === this.state.tab ? { opacity: 1, visibility: 'visible', transition: 'all 0.5s ease-in-out 0s', position: 'relative' } : {}}
+                style={i === this.state.tab ? { opacity: 1, visibility: 'visible', transition: 'all 0.5s ease-in-out 0s', zIndex: 2, position: 'relative' } : {}}
               >
-                <h4 className={styles.JobTitle}>{job.role} <strong>@ {job.company}</strong></h4>
+                <h4 className={styles.JobTitle}>{job.role} <strong>@ {job.url ? <Link href={job.url} newTab={true}>{job.company}</Link> : job.company}</strong></h4>
                 <h4 className={styles.JobPeriod}>{job.period}</h4>
                 <p>
                   <ul>
