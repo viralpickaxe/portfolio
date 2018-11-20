@@ -32,7 +32,7 @@ export default class Header extends React.Component<{}, {}> {
                   from={{ opacity: 0, top: -20 }} to={{ opacity: 1, top: 0 }}>
                   { (style) => (
                     <li className={styles.NavListItem} style={style}>
-                      <a href={navLink.anchor} className={styles.NavLink}>{navLink.text}</a>
+                      <a href={`#${navLink.anchor}`} className={styles.NavLink}>{navLink.text}</a>
                     </li>
                   )}
                 </Spring>

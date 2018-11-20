@@ -25,6 +25,7 @@ export default class Jobs extends React.Component<{}, JobsState> {
       description: [
         'Software Engineer on the team that builds the third-party Javascript application, backend microservices and serving infrastructure elements of the Yieldify Conversion Platform.',
         'Involved in the hiring and interview process for engineering candidates in CV reviews, take home tests and technical white-boarding interviews.',
+        'Coordinated feature development across multiple teams, involving white boarding sessions, product definition refinement and task writing.',
         'Built internal tools in own time to improve productivity of team, such as a chrome extension to improve our work#ow in Jira, a GitHub PR bot to maintain consistency across repos and an auto package bumper to keep internal modules up to date across projects the large number of repos they’re used in.',
       ],
     },
@@ -97,11 +98,9 @@ export default class Jobs extends React.Component<{}, JobsState> {
               >
                 <h4 className={styles.JobTitle}>{job.role} <strong>@ {job.url ? <Link href={job.url} newTab={true}>{job.company}</Link> : job.company}</strong></h4>
                 <h4 className={styles.JobPeriod}>{job.period}</h4>
-                <p>
-                  <ul>
-                    {job.description.map((line, i) => <li key={i}>{line}</li>)}
-                  </ul>
-                </p>
+                <ul>
+                  {job.description.map((line, i) => <li key={i}>{line}</li>)}
+                </ul>
               </div>
             ))}
           </div>

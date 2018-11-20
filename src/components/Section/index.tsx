@@ -13,7 +13,7 @@ export default class Section extends React.Component<SectionProps, {}> {
       [styles.Section, this.props.className].join(' ') : styles.Section;
 
     return (
-      <section className={className}>
+      <section id={this.props.id} className={className}>
         {this.props.title ? <h3>{this.props.title}</h3> : null}
         {this.props.children}
       </section>

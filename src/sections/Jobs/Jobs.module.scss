@@ -82,27 +82,23 @@
   visibility: hidden;
   transition: all 0s $animate 0s;
 
-  p {
-    margin: 0px 0px 10px;
+  ul {
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
 
-    ul {
-      font-size: 18px;
-      padding: 0px;
-      margin: 0px;
-      list-style: none;
+    li {
+      position: relative;
+      padding-left: 30px;
+      margin-bottom: 5px;
 
-      li {
-        position: relative;
-        padding-left: 30px;
-        margin-bottom: 5px;
-
-        &:before {
-          content: "▹";
-          position: absolute;
-          left: 0;
-          color: $primary;
-          line-height: 20px;
-        }
+      &:before {
+        content: "▹";
+        position: absolute;
+        left: 0;
+        color: $primary;
+        line-height: 20px;
       }
     }
   }
