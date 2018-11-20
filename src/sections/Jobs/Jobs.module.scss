@@ -6,3 +6,126 @@
   margin: 0px auto;
   padding: 150px 0px;
 }
+
+.TabsContainer {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.TabList {
+  display: block;
+  position: relative;
+  width: max-content;
+  z-index: 3;
+}
+
+.Tab {
+  position: relative;
+  display: flex;
+  cursor: pointer;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  background-color: transparent;
+  height: 42px;
+  text-align: left;
+  white-space: nowrap;
+  font-family: $SFMono;
+  font-size: 13px;
+  color: rgb(96, 106, 134);
+  text-decoration: none;
+  outline: none;
+  padding: 0px 20px 2px;
+  transition: all 0.25s $animate 0s;
+  border-left: 2px solid rgb(51, 63, 88);
+
+  &:hover, &[data-active=true] {
+    background-color: rgb(23, 42, 69);
+    color: $primary;
+  }
+
+  &[data-active=true] {
+    cursor: default;
+  }
+}
+
+.TabHighlight {
+  display: block;
+  width: 2px;
+  height: 42px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background: $primary;
+  border-radius: 2px;
+  transition: all 0.25s $animate 0.1s;
+}
+
+.TabContentContainer {
+  position: relative;
+  padding-top: 14px;
+  padding-left: 30px;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+}
+
+.TabContent {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: auto;
+  opacity: 0;
+  z-index: -1;
+  position: absolute;
+  visibility: hidden;
+  transition: all 0s $animate 0s;
+
+  p {
+    margin: 0px 0px 10px;
+
+    ul {
+      font-size: 18px;
+      padding: 0px;
+      margin: 0px;
+      list-style: none;
+
+      li {
+        position: relative;
+        padding-left: 30px;
+        margin-bottom: 5px;
+
+        &:before {
+          content: "▹";
+          position: absolute;
+          left: 0;
+          color: $primary;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+}
+
+.JobTitle {
+  color: $font-secondary-light;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  margin: 0px 0px 10px;
+
+  strong {
+    color: $primary;
+    font-weight: 500;
+  }
+}
+
+.JobPeriod {
+  font-family: $SFMono;
+  font-size: 13px;
+  font-weight: normal;
+  letter-spacing: 0.5px;
+  color: $grey-line;
+  margin: 0px 0px 30px;
+}

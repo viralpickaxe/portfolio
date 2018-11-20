@@ -9,6 +9,7 @@ import { animationDelays } from '../../animation-time-book';
 export default class Hero extends React.Component<{}, {}> {
   public render() {
     const iD = animationDelays.heroContent;
+
     return (
       <Section id="hero" className={styles.HeroContainer}>
         <Spring delay={iD} from={{ opacity: 0, top: 40 }} to={{ opacity: 1, top: 0 }}>

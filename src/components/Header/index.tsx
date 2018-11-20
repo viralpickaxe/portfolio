@@ -27,6 +27,7 @@ export default class Header extends React.Component<{}, {}> {
             <ol className={styles.NavList}>
               {this.navLinks.map((navLink, i) => (
                 <Spring
+                  key={navLink.anchor}
                   delay={animationDelays.navBarLinks + (i * 150)}
                   from={{ opacity: 0, top: -20 }} to={{ opacity: 1, top: 0 }}>
                   { (style) => (
