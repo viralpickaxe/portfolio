@@ -56,7 +56,7 @@ export default class Jobs extends React.Component<{}, JobsState> {
     {
       company: 'whatleads.to',
       role: 'Co-Founder and Developer',
-      period: 'Jan 2014 - Feb 2015',
+      period: 'Dec 2013 - Feb 2015',
       description: [
         'Founded in December 2013 and pitched to receive incubator funding from Bethnal Green Ventures.',
         'Built a scalable API and web app able to handle thousands of concurrent connections.',
