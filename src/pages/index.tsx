@@ -24,6 +24,11 @@ interface IndexPageProps {
         node: AboutSectionQueryResult
       }[]
     }
+    jobs: {
+      edges: {
+        node: JobSectionQueryResult
+      }[]
+    }
   }
 }
 
@@ -36,7 +41,7 @@ export default class IndexPage extends React.Component<IndexPageProps, {}> {
         <main className={styles.Main}>
           <Hero data={this.props.data.hero.edges[0].node} />
           <About data={this.props.data.about.edges[0].node} />
-          <Jobs />
+          <Jobs jobs={this.props.data.jobs.edges.map((({ node }) => node))} />
           <Projects />
           <Contact />
         </main>
@@ -64,6 +69,17 @@ export interface AboutSectionQueryResult {
     title: string;
     skills: string[];
     avatar: ChildImageSharpResult;
+  }
+  html: string;
+}
+
+export interface JobSectionQueryResult {
+  frontmatter: {
+    role: string;
+    company: string;
+    period: string;
+    url: string;
+    key: string;
   }
   html: string;
 }
@@ -113,6 +129,23 @@ export const query = graphql`
             }
             skills
           }
+        }
+      }
+    }
+    jobs: allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/jobs/" } }
+      sort: { fields: [frontmatter___key], order: DESC }
+    ) {
+      edges {
+        node {
+          frontmatter {
+            role
+            company
+            period
+            url
+            key
+          }
+          html
         }
       }
     }
