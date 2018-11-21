@@ -1,6 +1,6 @@
 ---
 company: Doorpass
-url: test
+url:
 role: Co-Founder and Software Engineer
 period: Jun 2016 - May 2017
 key: 2

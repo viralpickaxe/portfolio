@@ -21,7 +21,7 @@ export default class Header extends React.Component<{}, HeaderState> {
   public navLinks: NavLink[] = [
     { anchor: 'about', text: 'About'},
     { anchor: 'jobs', text: 'Experience'},
-    { anchor: 'projects', text: 'Work'},
+    { anchor: 'featured', text: 'Work'},
     { anchor: 'contact', text: 'Contact'},
   ];
 

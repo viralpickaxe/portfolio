@@ -8,7 +8,7 @@ import EmailFeature from '../components/EmailFeature';
 import Hero from '../sections/Hero';
 import About from '../sections/About';
 import Jobs from '../sections/Jobs';
-import Projects from '../sections/Projects';
+import Featured from '../sections/Featured';
 import Contact from '../sections/Contact';
 import Head from '../components/Head';
 
@@ -29,6 +29,11 @@ interface IndexPageProps {
         node: JobSectionQueryResult
       }[]
     }
+    featured: {
+      edges: {
+        node: FeaturedSectionQueryResult
+      }[]
+    }
   }
 }
 
@@ -42,7 +47,7 @@ export default class IndexPage extends React.Component<IndexPageProps, {}> {
           <Hero data={this.props.data.hero.edges[0].node} />
           <About data={this.props.data.about.edges[0].node} />
           <Jobs jobs={this.props.data.jobs.edges.map((({ node }) => node))} />
-          <Projects />
+          <Featured projects={this.props.data.featured.edges.map((({ node }) => node))}  />
           <Contact />
         </main>
         <Footer />
@@ -79,7 +84,16 @@ export interface JobSectionQueryResult {
     company: string;
     period: string;
     url: string;
-    key: string;
+  }
+  html: string;
+}
+
+export interface FeaturedSectionQueryResult {
+  frontmatter: {
+    title: string;
+    cover: ChildImageSharpResult;
+    links: string[];
+    tech: string[];
   }
   html: string;
 }
@@ -144,6 +158,29 @@ export const query = graphql`
             period
             url
             key
+          }
+          html
+        }
+      }
+    }
+    featured: allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/featured/" } }
+      sort: { fields: [frontmatter___index], order: ASC }
+    ) {
+      edges {
+        node {
+          frontmatter {
+            index
+            title
+            cover {
+              childImageSharp {
+                fluid(maxWidth: 700, quality: 90, traceSVG: { color: "#64ffda" }) {
+                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                }
+              }
+            }
+            links
+            tech
           }
           html
         }
