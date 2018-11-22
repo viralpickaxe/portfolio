@@ -12,6 +12,8 @@
   min-height: 100vh;
   margin: 0px auto;
   padding: 150px 0px;
+
+  @include onTablet { padding-top: 150px; }
 }
 
 .Title, .Name, .Subtitle, .Blurb, .Contact {
@@ -23,6 +25,9 @@
   font-size: 16px;
   font-family: $SFMono;
   margin: 0px 0px 20px 3px;
+
+  @include onDesktop { font-size: 14px; }
+  @include onTablet { font-size: 13px; }
 }
 
 .Name {
@@ -40,6 +45,13 @@
   font-weight: 600;
   font-size: 80px;
   margin: 0px 0px 10px;
+}
+
+.Name, .Subtitle {
+  @include onDesktop { font-size: 70px; }
+  @include onTablet { font-size: 60px; }
+  @include onPhablet { font-size: 50px; }
+  @include onMobile { font-size: 40px; }
 }
 
 .Blurb {

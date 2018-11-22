@@ -15,6 +15,9 @@
     background-color: $grey-line;
     margin: 0px auto;
   }
+
+  @include onDesktop { right: 25px; }
+  @include onTablet { display: none; }
 }
 
 .EmailLinkWrapper {

@@ -11,6 +11,8 @@ body {
   line-height: 1.25;
   font-size: 20px;
   -webkit-font-smoothing: antialiased;
+
+  @include onPhablet { font-size: 18px; }
 }
 
 a {
