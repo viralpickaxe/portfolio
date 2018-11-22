@@ -38,7 +38,6 @@ export default class Jobs extends React.Component<JobsSectionProps, JobsState> {
                 key={i}
                 className={styles.Tab}
                 onClick={() => this.switchTab(i)}
-                onTouchEnd={() => this.switchTab(i)}
                 data-active={i === this.state.tab}
               >
                 <span>{frontmatter.company}</span>

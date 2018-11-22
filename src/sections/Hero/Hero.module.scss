@@ -10,8 +10,6 @@
   flex-direction: column;
   align-items: flex-start;
   min-height: 100vh;
-  margin: 0px auto;
-  padding: 150px 0px;
 
   @include onTablet { padding-top: 150px; }
 }

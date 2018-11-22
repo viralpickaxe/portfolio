@@ -3,8 +3,7 @@
 .ContactContainer {
   text-align: center;
   max-width: 600px;
-  padding: 150px 0px;
-  margin: 0px auto 100px;
+  margin-bottom: 100px;
 
   h3 {
     font-size: 16px;
@@ -18,11 +17,15 @@
     &::before {
       bottom: 0px;
       font-size: 14px;
+
+      @include onDesktop { font-size: 13px; }
     }
 
     &::after {
       display: none;
     }
+
+    @include onDesktop { font-size: 14px; }
   }
 }
 
@@ -31,6 +34,9 @@
   margin: 0px 0px 20px;
   font-weight: 600;
   color: $font-primary;
+
+  @include onDesktop { font-size: 50px; }
+  @include onTablet { font-size: 40px; }
 }
 
 .EmailLink {
