@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
     name: 'Jamie Davies | Software Engineer',
-    description: 'My name is Jamie Davies, I\'m a Software Engineer'
+    description: 'Hi, my name is Jamie Davies. I like to build things.',
+    siteUrl: `https://iamjamiedavies.com`,
   },
   plugins: [
     'gatsby-plugin-sass',

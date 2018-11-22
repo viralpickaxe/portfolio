@@ -54,7 +54,7 @@ export default class Jobs extends React.Component<JobsSectionProps, JobsState> {
               >
                 <h4 className={styles.JobTitle}>{frontmatter.role} <strong>@ {frontmatter.url ? <Link href={frontmatter.url} newTab={true}>{frontmatter.company}</Link> : frontmatter.company}</strong></h4>
                 <h4 className={styles.JobPeriod}>{frontmatter.period}</h4>
-                <p dangerouslySetInnerHTML={{ __html: html }}></p>
+                <div dangerouslySetInnerHTML={{ __html: html }} />
               </div>
             ))}
           </div>

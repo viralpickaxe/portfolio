@@ -15,7 +15,7 @@ export default class About extends React.Component<AboutSectionProps, {}> {
       <Section id="about" title={frontmatter.title} className={styles.AboutContainer}>
         <div className={styles.FlexContainer}>
           <div className={styles.ContentContainer}>
-            <p dangerouslySetInnerHTML={{ __html: html }}></p>
+            <div dangerouslySetInnerHTML={{ __html: html }} />
             <ul className={styles.SkillsContainer}>
               {frontmatter.skills.map((skill) => <li key={skill} className={styles.Skill}>{skill}</li>)}
             </ul>

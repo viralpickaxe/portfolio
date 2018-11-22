@@ -29,9 +29,7 @@ export default class Hero extends React.Component<HeroSectionProps, {}> {
         </Spring>
         <Spring delay={iD + 450} from={{ opacity: 0, top: 40 }} to={{ opacity: 1, top: 0 }}>
           { style => (
-            <div className={styles.Blurb} style={style}>
-              <p dangerouslySetInnerHTML={{ __html: html }}></p>
-            </div>
+            <div className={styles.Blurb} style={style} dangerouslySetInnerHTML={{ __html: html }} />
           )}
         </Spring>
         <Spring delay={iD + 600} from={{ opacity: 0, top: 40 }} to={{ opacity: 1, top: 0 }}>

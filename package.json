@@ -5,7 +5,8 @@
   "scripts": {
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "deploy": "gatsby build && cp ./src/static/{CNAME,CV.pdf} public/ && gh-pages -d public"
   },
   "dependencies": {
     "gatsby": "^2.0.50",
@@ -40,6 +41,7 @@
   },
   "homepage": "https://github.com/viralpickaxe/iamjamiedavies-portfolio#readme",
   "devDependencies": {
-    "@types/react-helmet": "^5.0.7"
+    "@types/react-helmet": "^5.0.7",
+    "gh-pages": "^2.0.1"
   }
 }
