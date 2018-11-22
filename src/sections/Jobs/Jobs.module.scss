@@ -12,6 +12,8 @@
   display: flex;
   align-items: flex-start;
   position: relative;
+
+  @include onTobile { display: block; }
 }
 
 .TabList {
@@ -19,6 +21,13 @@
   position: relative;
   width: max-content;
   z-index: 3;
+
+  @include onTobile {
+    display: flex;
+    margin-bottom: 30px;
+    width: 100%;
+    overflow-x: scroll;
+  }
 }
 
 .Tab {
@@ -50,19 +59,60 @@
   &[data-active=true] {
     cursor: default;
   }
+
+  @include onTablet { padding: 0 15px 2px; }
+
+  @include onTobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+    text-align: center;
+    border-left: 0;
+    border-bottom: 2px solid rgb(51, 63, 88);
+    min-width: 120px;
+  }
 }
 
-.TabHighlight {
+.TabHighlightVert, .TabHighlightHoz {
   display: block;
-  width: 2px;
-  height: 42px;
   position: absolute;
-  top: 0;
-  left: 0;
   z-index: 10;
   background: $primary;
   border-radius: 2px;
   transition: all 0.25s $animate 0.1s;
+
+  @include onTobile {
+    top: auto;
+    bottom: 0;
+  }
+}
+
+.TabHighlightVert {
+  display: block;
+  top: 0;
+  left: 0;
+
+  width: 2px;
+  height: 42px;
+
+  @include onTobile {
+    display: none;
+  }
+}
+
+.TabHighlightHoz {
+  display: none;
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+  max-width: 120px;
+  height: 2px;
+
+  @include onTobile {
+    display: block;
+  }
 }
 
 .TabContentContainer {
@@ -71,6 +121,9 @@
   padding-left: 30px;
   -webkit-box-flex: 1;
   flex-grow: 1;
+
+  @include onTablet { padding-left: 20px; }
+  @include onTobile { padding-left: 0; }
 }
 
 .TabContent {

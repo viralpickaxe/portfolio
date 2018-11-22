@@ -14,6 +14,8 @@
   justify-content: space-between;
   -webkit-box-align: center;
   align-items: flex-start;
+
+  @include onTablet { display: block; }
 }
 
 .ContentContainer {
@@ -27,6 +29,8 @@
   a {
     @extend .Link;
   }
+
+  @include onTablet { width: 100%; }
 }
 
 .SkillsContainer {
@@ -62,6 +66,9 @@
   max-width: 300px;
   margin-left: 60px;
   background: $primary;
+
+  @include onTablet { margin: 70px auto 0; }
+  @include onPhablet { width: 70%; }
 }
 
 .AvatarContainer {

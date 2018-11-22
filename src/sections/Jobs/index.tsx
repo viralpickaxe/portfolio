@@ -38,12 +38,14 @@ export default class Jobs extends React.Component<JobsSectionProps, JobsState> {
                 key={i}
                 className={styles.Tab}
                 onClick={() => this.switchTab(i)}
+                onTouchEnd={() => this.switchTab(i)}
                 data-active={i === this.state.tab}
               >
                 <span>{frontmatter.company}</span>
               </button>
             ))}
-            <div className={styles.TabHighlight} style={{top: Number(this.state.tab) * 42}} />
+            <div className={styles.TabHighlightVert} style={{top: Number(this.state.tab) * 42}} />
+            <div className={styles.TabHighlightHoz} style={{left: Number(this.state.tab) * 120}} />
           </div>
           <div className={styles.TabContentContainer}>
             {this.props.jobs.map(({ frontmatter, html }, i) => (
