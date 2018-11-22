@@ -28,3 +28,34 @@
     color: $primary;
   }
 }
+
+.SocialContainer {
+  display: none;
+  width: 100%;
+  max-width: 150px;
+  margin: 10px auto 10px;
+
+  @include onTablet { display: block; }
+}
+
+.SocialItemList {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.SocialItem {
+  a {
+    color: $font-secondary;
+
+    svg {
+      width: 18px;
+      height: 18px;
+      fill: currentcolor;
+      vertical-align: middle;
+    }
+  }
+}
