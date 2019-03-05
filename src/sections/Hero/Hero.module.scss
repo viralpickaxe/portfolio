@@ -1,0 +1,70 @@
+@import "../../../assets/sass/vars";
+@import "../../components/Link/Link.module.scss";
+
+.HeroContainer {
+  max-width: 1000px;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 100vh;
+
+  @include onTablet { padding-top: 150px; }
+}
+
+.Title, .Name, .Subtitle, .Blurb, .Contact {
+  position: relative;
+}
+
+.Title {
+  color: $primary;
+  font-size: 16px;
+  font-family: $SFMono;
+  margin: 0px 0px 20px 3px;
+
+  @include onDesktop { font-size: 14px; }
+  @include onTablet { font-size: 13px; }
+}
+
+.Name {
+  font-weight: 600;
+  color: $font-primary;
+  font-size: 80px;
+  line-height: 1.1;
+  margin: 0px;
+}
+
+.Subtitle {
+  font-size: 80px;
+  line-height: 1.1;
+  color: $font-secondary;
+  font-weight: 600;
+  font-size: 80px;
+  margin: 0px 0px 10px;
+}
+
+.Name, .Subtitle {
+  @include onDesktop { font-size: 70px; }
+  @include onTablet { font-size: 60px; }
+  @include onPhablet { font-size: 50px; }
+  @include onMobile { font-size: 40px; }
+}
+
+.Blurb {
+  margin-top: 25px;
+  max-width: 500px;
+
+  p {
+    margin: 0px 0px 10px;
+  }
+
+  a {
+    @extend .Link;
+  }
+}
+
+.Contact {
+  margin-top: 50px;
+}

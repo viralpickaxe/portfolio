@@ -1,0 +1,48 @@
+@import "../../../assets/sass/vars";
+
+.EmailContainer {
+  width: 40px;
+  position: fixed;
+  bottom: 0px;
+  right: 40px;
+  color: $grey-line;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    background-color: $grey-line;
+    margin: 0px auto;
+  }
+
+  @include onDesktop { right: 25px; }
+  @include onTablet { display: none; }
+}
+
+.EmailLinkWrapper {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.EmailLink {
+  font-family: $SFMono;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  -webkit-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+  margin: 20px auto;
+  padding: 10px;
+  display: inline-block;
+  color: inherit;
+  transition: color 0.25s $animate 0s;
+
+  &:hover {
+    color: $primary;
+  }
+}

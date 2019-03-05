@@ -1,0 +1,184 @@
+@import "../../../assets/sass/vars";
+@import "../../components/Link/Link.module.scss";
+
+.JobsContainer {
+  max-width: 700px;
+  position: relative;
+}
+
+.TabsContainer {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+
+  @include onTobile { display: block; }
+}
+
+.TabList {
+  display: block;
+  position: relative;
+  width: max-content;
+  z-index: 3;
+
+  @include onTobile {
+    display: flex;
+    margin-bottom: 30px;
+    width: 100%;
+    overflow-x: scroll;
+  }
+}
+
+.Tab {
+  position: relative;
+  display: flex;
+  cursor: pointer;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  background-color: transparent;
+  height: 42px;
+  text-align: left;
+  white-space: nowrap;
+  font-family: $SFMono;
+  font-size: 13px;
+  color: rgb(96, 106, 134);
+  text-decoration: none;
+  border: none;
+  outline: none;
+  padding: 0px 20px 2px;
+  transition: all 0.25s $animate 0s;
+  border-left: 2px solid rgb(51, 63, 88);
+
+  &:hover, &[data-active=true] {
+    background-color: rgb(23, 42, 69);
+    color: $primary;
+  }
+
+  &[data-active=true] {
+    cursor: default;
+  }
+
+  @include onTablet { padding: 0 15px 2px; }
+
+  @include onTobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+    text-align: center;
+    border-left: 0;
+    border-bottom: 2px solid rgb(51, 63, 88);
+    min-width: 120px;
+  }
+}
+
+.TabHighlightVert, .TabHighlightHoz {
+  display: block;
+  position: absolute;
+  z-index: 10;
+  background: $primary;
+  border-radius: 2px;
+  transition: all 0.25s $animate 0.1s;
+
+  @include onTobile {
+    top: auto;
+    bottom: 0;
+  }
+}
+
+.TabHighlightVert {
+  display: block;
+  top: 0;
+  left: 0;
+
+  width: 2px;
+  height: 42px;
+
+  @include onTobile {
+    display: none;
+  }
+}
+
+.TabHighlightHoz {
+  display: none;
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+  max-width: 120px;
+  height: 2px;
+
+  @include onTobile {
+    display: block;
+  }
+}
+
+.TabContentContainer {
+  position: relative;
+  padding-top: 14px;
+  padding-left: 30px;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+
+  @include onTablet { padding-left: 20px; }
+  @include onTobile { padding-left: 0; }
+}
+
+.TabContent {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: auto;
+  opacity: 0;
+  z-index: -1;
+  position: absolute;
+  visibility: hidden;
+  transition: all 0s $animate 0s;
+
+  a {
+    @extend .Link;
+  }
+
+  ul {
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+
+    li {
+      position: relative;
+      padding-left: 30px;
+      margin-bottom: 5px;
+
+      &:before {
+        content: "▹";
+        position: absolute;
+        left: 0;
+        color: $primary;
+        line-height: 20px;
+      }
+    }
+  }
+}
+
+.JobTitle {
+  color: $font-secondary-light;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  margin: 0px 0px 10px;
+
+  strong {
+    color: $primary;
+    font-weight: 500;
+  }
+}
+
+.JobPeriod {
+  font-family: $SFMono;
+  font-size: 13px;
+  font-weight: normal;
+  letter-spacing: 0.5px;
+  color: $grey-line;
+  margin: 0px 0px 30px;
+}

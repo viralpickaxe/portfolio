@@ -1,0 +1,12 @@
+@import "../../assets/sass/vars";
+
+.Main {
+  width: 100%;
+  counter-reset: section 0;
+  margin: 0px auto;
+  padding: 0px 150px;
+
+  @include onDesktop { padding: 0 100px; }
+  @include onTablet { padding: 0 50px; }
+  @include onPhablet { padding: 0 25px; }
+}

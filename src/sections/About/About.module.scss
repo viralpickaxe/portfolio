@@ -1,0 +1,84 @@
+@import "../../../assets/sass/vars";
+@import "../../components/Link/Link.module.scss";
+
+.AboutContainer {
+  max-width: 1000px;
+  position: relative;
+}
+
+.FlexContainer {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: flex-start;
+
+  @include onTablet { display: block; }
+}
+
+.ContentContainer {
+  width: 60%;
+  max-width: 480px;
+
+  p {
+    margin: 0px 0px 10px;
+  }
+
+  a {
+    @extend .Link;
+  }
+
+  @include onTablet { width: 100%; }
+}
+
+.SkillsContainer {
+  display: grid;
+  grid-template-columns: minmax(140px, 200px) minmax(140px, 200px);
+  margin-bottom: 20px 0 0;
+  overflow: hidden;
+  padding: 0px;
+  list-style: none;
+}
+
+.Skill {
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  font-family: $SFMono;
+  font-size: 13px;
+  color: $font-secondary;
+
+  &::before {
+    content: "▹";
+    position: absolute;
+    left: 0px;
+    color: $primary;
+    font-size: 14px;
+    line-height: 12px;
+  }
+}
+
+.PicContainer {
+  position: relative;
+  width: 40%;
+  max-width: 300px;
+  margin-left: 60px;
+  background: $primary;
+
+  @include onTablet { margin: 70px auto 0; }
+  @include onPhablet { width: 70%; }
+}
+
+.AvatarContainer {
+  width: 100%;
+}
+
+.Avatar {
+  width: 100%;
+  position: relative;
+  border-radius: 2px;
+  display: block;
+  mix-blend-mode: multiply;
+  filter: grayscale(100%) contrast(0.8);
+  margin: -12px -12px 12px;
+}

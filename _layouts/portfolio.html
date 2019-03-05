@@ -60,27 +60,12 @@
     </script>
   </head>
   <body>
-    <header>
-      <ul class="leadin">
-        <li>Hey there, I'm <strong>Jamie Davies</strong>,</li>
-        <li>I'm <span id="jobtitle-prefix">a</span> <strong id="jobtitle" data-jobtitleprefix="a" data-jobtitle="Software Engineer">Software Engineer</strong></li>
-      </ul>
-      <ul class="links">
-        <li><a href="http://github.com/viralpickaxe" target=_blank data-jobtitleprefix="an" data-jobtitle="Open Source Developer">GitHub <span class="icon-github"></span></a></li>
-        <li><a href="http://twitter.com/viralpickaxe" target=_blank data-jobtitleprefix="an" data-jobtitle="Avid Tweeter">Twitter <span class="icon-twitter"></span></a></li>
-        <li><a href="http://www.linkedin.com/in/viralpickaxe" target=_blank data-jobtitleprefix="a" data-jobtitle="Bid'nis Guy">LinkedIn <span class="icon-linkedin"></span></a></li>
-      </ul>
-    </header>
+    {% include header.html %}
 
-    {{ content }}
+    {% include social.html %}
+    {% include email.html %}
+    {% include main.html %}
 
-    <footer>
-      <div class="container">
-        © 2018 Jamie Davies.
-      </div>
-    </footer>
+    {% include footer.html %}
   </body>
-
-  <script src="/assets/js/script.min.js"></script>
-  <script src="/assets/js/pages/index.min.js"></script>
 </html>

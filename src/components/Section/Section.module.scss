@@ -1,0 +1,44 @@
+@import "../../../assets/sass/vars";
+
+.Section {
+  margin: 0px auto;
+  padding: 150px 0px;
+
+  @include onTablet { padding: 100px 0; }
+
+  h3 {
+    position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    white-space: nowrap;
+    font-size: 30px;
+    margin: 10px 0px 40px;
+    font-weight: 600;
+    color: $font-primary;
+
+    &::before {
+      counter-increment: section 1;
+      content: "0" counter(section) ".";
+      margin-right: 10px;
+      font-family: $SFMono;
+      font-weight: normal;
+      color: $primary;
+      font-size: 20px;
+      position: relative;
+      bottom: 4px;
+    }
+
+    &::after {
+      content: "";
+      display: block;
+      height: 1px;
+      width: 300px;
+      background-color: $grey-line-dark;
+      position: relative;
+      top: -5px;
+      margin-left: 20px;
+    }
+  }
+}

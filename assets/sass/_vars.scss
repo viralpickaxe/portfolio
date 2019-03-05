@@ -1,29 +1,53 @@
-$black : #303030;
-$white : #ffffff;
+$background: rgb(10, 25, 47);
+$background-light: rgb(23, 42, 69);
+$background-dark: rgb(2, 12, 27);
 
-$grey : #E5E5E5;
-$blue : #0099FF;
-$green : #5AB55A;
-$red : #FF4747;
-$orange : #FFA500;
-$purple : #C646C6;
+$primary: rgb(100, 255, 218);
 
-$blue_active : lighten($blue, 15%);
+$font-primary: rgb(230, 241, 255);
+$font-secondary-light: rgb(204, 214, 246);
+$font-secondary: rgb(136, 146, 176);
 
-$grey_light : lighten($grey, 5%);
-$grey_dark : darken($grey, 30%);
+$grey-line: rgb(168, 178, 209);
+$grey-line-dark: rgb(45, 57, 82);
 
-$blue_light : lighten($blue, 15%);
-$blue_dark : darken($blue, 15%);
+$animate: cubic-bezier(0.645, 0.045, 0.355, 1);
 
-$green_light : lighten($green, 15%);
-$green_dark : darken($green, 15%);
+$Calibre: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+$SFMono: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
 
-$red_light : lighten($red, 15%);
-$red_dark : darken($red, 15%);
+@mixin onGiant {
+  @media (max-width: 90em) {
+    @content;
+  }
+}
 
-$orange_light : lighten($orange, 15%);
-$orange_dark : darken($orange, 15%);
+@mixin onDesktop {
+  @media (max-width: 62.6em) {
+    @content;
+  }
+}
 
-$purple_light : lighten($purple, 15%);
-$purple_dark : darken($purple, 15%);
+@mixin onTablet {
+  @media (max-width: 48em) {
+    @content;
+  }
+}
+
+@mixin onTobile {
+  @media (max-width: 37.5em) {
+    @content;
+  }
+}
+
+@mixin onPhablet {
+  @media (max-width: 30em) {
+    @content;
+  }
+}
+
+@mixin onMobile {
+  @media (max-width: 23.5em) {
+    @content;
+  }
+}
