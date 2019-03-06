@@ -7,3 +7,5 @@ contactLink: mailto:jamie@iamjamiedavies.com
 ---
 I'm a Software Engineer based in London specializing in developing exceptional, high-quality websites and applications.
 I'm currently working at [Yieldify](https://yieldify.com) as a Software Engineer.
+
+I also [take photos](https://photography.iamjamiedavies.com), climb, and fly planes.
