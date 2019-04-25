@@ -4,9 +4,8 @@
   "description": "",
   "scripts": {
     "develop": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "deploy": "gatsby build && cp ./src/static/{CNAME,CV.pdf} public/ && gh-pages -d public"
+    "build": "gatsby build && cp ./src/static/CV.pdf public/",
+    "serve": "gatsby serve"
   },
   "dependencies": {
     "gatsby": "^2.0.50",
@@ -41,7 +40,6 @@
   },
   "homepage": "https://github.com/viralpickaxe/portfolio#readme",
   "devDependencies": {
-    "@types/react-helmet": "^5.0.7",
-    "gh-pages": "^2.0.1"
+    "@types/react-helmet": "^5.0.7"
   }
 }
