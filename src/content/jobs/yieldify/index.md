@@ -2,7 +2,7 @@
 company: Yieldify
 url: https://yieldify.com
 role: Software Engineer
-period: Aug 2017 - Present
+period: Aug 2017 - May 2019
 key: 4
 ---
 - Software Engineer on the team that builds the third-party Javascript application, backend microservices and serving infrastructure elements of the Yieldify Conversion Platform.
