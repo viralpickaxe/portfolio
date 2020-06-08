@@ -7,9 +7,9 @@ skills:
   - Node.js
   - React
   - HTML & CSS
-  - Python
+  - Ember
   - PHP
-  - Docker
+  - Ruby
   - SQL
   - noSQL
 ---
