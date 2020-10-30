@@ -8,7 +8,7 @@ skills:
   - React
   - HTML & CSS
   - Ember
-  - PHP
+  - Canvas
   - Ruby
   - SQL
   - noSQL

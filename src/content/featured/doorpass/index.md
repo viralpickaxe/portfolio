@@ -1,5 +1,5 @@
 ---
-index: 1
+index: 2
 title: Doorpass
 cover: ./doorpass.png
 links:

@@ -1,6 +1,6 @@
 import * as React from 'react'
 import styles from './Footer.module.scss'
-import { GithubIcon, LinkedInIcon, InstagramIcon, TwitterIcon } from '../Icon';
+import { GithubIcon, LinkedInIcon, InstagramIcon } from '../Icon';
 
 export default class Footer extends React.Component<{}, {}> {
   public render() {
@@ -16,9 +16,6 @@ export default class Footer extends React.Component<{}, {}> {
             </li>
             <li className={styles.SocialItem}>
               <a href="https://instagram.com/viralpickaxe" target="_blank"><InstagramIcon /></a>
-            </li>
-            <li className={styles.SocialItem}>
-              <a href="https://twitter.com/viralpickaxe" target="_blank"><TwitterIcon /></a>
             </li>
           </ul>
         </div>

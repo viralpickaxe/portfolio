@@ -2,7 +2,7 @@ import * as React from 'react'
 import { Spring } from 'react-spring'
 import styles from './SocialFeature.module.scss'
 import { animationDelays } from '../../animation-time-book';
-import { GithubIcon, LinkedInIcon, InstagramIcon, TwitterIcon } from '../Icon';
+import { GithubIcon, LinkedInIcon, InstagramIcon } from '../Icon';
 
 export default class SocialFeature extends React.Component<{}, {}> {
   public render() {
@@ -20,9 +20,6 @@ export default class SocialFeature extends React.Component<{}, {}> {
                 </li>
                 <li className={styles.SocialItem}>
                   <a href="https://instagram.com/viralpickaxe" target="_blank"><InstagramIcon /></a>
-                </li>
-                <li className={styles.SocialItem}>
-                  <a href="https://twitter.com/viralpickaxe" target="_blank"><TwitterIcon /></a>
                 </li>
               </ul>
             </div>
