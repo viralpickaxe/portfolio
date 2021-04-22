@@ -43,7 +43,7 @@ export default class Head extends React.Component<{}, {}> {
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="google-site-verification" content="hXXmhoZPEMmMGyxH3XZBQaov3f1q8dojvKyfMvXtovY" />
-        <script src="https://js.opinous.com/l/8764d985-4c56-4f3c-8f2e-881bf6ef15d8/searchkit.js" async></script>
+        <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "dba8893ee4964a21a12ef9e676c6f66c"}'></script>
       </Helmet>
     )
   }
