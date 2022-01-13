@@ -1,7 +1,7 @@
 ---
 company: Intercom
 url: https://intercom.com
-role: Product Engineer
+role: Senior Product Engineer
 period: May 2019 - Present
 key: 5
 ---
