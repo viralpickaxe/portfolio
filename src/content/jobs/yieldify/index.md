@@ -1,7 +1,7 @@
 ---
 company: Yieldify
 url: https://yieldify.com
-role: Software Engineer
+role: Senior Software Engineer
 period: Aug 2017 - May 2019
 key: 4
 ---
