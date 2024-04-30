@@ -5,7 +5,7 @@ role: Senior Product Engineer
 period: May 2019 - Jan 2022
 key: 5
 ---
-- Product Engineer working in the Automation Group. Working on numerous products across Intercom including [Custom Bot](https://www.intercom.com/customizable-bots), [Resolution Bot](https://www.intercom.com/automated-answers), [Messenger](https://www.intercom.com/messenger) and [more](https://www.intercom.com/customer-support-software/self-serve-support).
+- Senior Product Engineer working in the Automated Support Group. Working on numerous products across Intercom including [Custom Bot](https://www.intercom.com/customizable-bots), [Resolution Bot](https://www.intercom.com/automated-answers), [Messenger](https://www.intercom.com/messenger) and [more](https://www.intercom.com/customer-support-software/self-serve-support).
 - Toured with teams across the company leading projects and contributing to widely used internal frameworks/systems such as Composer, Matching, Visual Editors, Bot Automation, Realtime Services, Reporting + more
 - Worked alongside team and group leads to roadmap and explore long term vision
 - Interviewed candidates in various stages from Tech Design to Problem Solving
