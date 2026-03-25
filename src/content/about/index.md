@@ -2,19 +2,17 @@
 title: 'About Me'
 avatar: './jamie.jpg'
 skills:
-  - JavaScript
   - TypeScript
-  - Node.js
+  - Nodejs
+  - LLMs
+  - Agent Harnesses
   - React
-  - HTML & CSS
-  - Ember
   - Canvas
+  - Ember
   - Ruby
-  - SQL
-  - noSQL
 ---
-Hey there! I’m a versatile Software Engineer who lives to build beautiful products from the ground up. I started programming at the age of 8, and at 14 raised funding for my first start-up.
+Hey there! I’m a versatile Software Engineer who lives to build beautiful products from the ground up. I started programming at 8, and raised funding for my first start-up at 14.
 
-For the past 6+ years, I've been honing my skills both frontend, backend and more recently iOS development. I enjoy constantly learning and improving my skills with the technologies that keep evolving in this ever-changing field!
+These days I'm deep in building AI-powered applications, with a growing focus on what makes them actually work in the real world - thoughtful harness design that turns impressive demos into products people can rely on.
 
-Here's a few things I'm experienced with:
+Here's a few things I'm quite experienced with:
