@@ -1,7 +1,6 @@
 import * as React from 'react'
 import { Spring } from 'react-spring'
 import styles from './Header.module.scss'
-import Button from '../Button';
 import { animationDelays } from '../../animation-time-book';
 
 interface HeaderState {
@@ -94,15 +93,6 @@ export default class Header extends React.Component<{}, HeaderState> {
                 </Spring>
               ))}
             </ol>
-            <div>
-              <Spring
-                delay={animationDelays.navBarLinks + (this.navLinks.length * 150)}
-                from={{ opacity: 0, top: -20 }} to={{ opacity: 1, top: 0 }}>
-                { (style) => (
-                  <Button className={styles.ResumeButton} style={style} href="/CV.pdf">Resume</Button>
-                )}
-                </Spring>
-            </div>
           </div>
         </nav>
       </header>
